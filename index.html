@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GarbagePal Kids</title>
+    <meta name="description" content="AI-generated Garbage Pal Kids-style trading card collections. Suburban Apocalypse, Punk, GWAR, Comedians, and Music series.">
+    <!-- OG / Social -->
+    <meta property="og:title" content="GarbagePal Kids">
+    <meta property="og:description" content="AI-generated GPK-style trading cards — 77 cards across 6 series, rendered by Flux Kontext.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rlv.lol/garbagepalkids/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GarbagePal Kids">
+    <meta name="twitter:description" content="AI-generated GPK-style trading cards — 6 series, 77 cards, rendered by Flux Kontext.">
+    <!-- Favicon (inline SVG) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🃏</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ── NAV ── -->
+    <nav class="top-nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <span class="logo-gpk">Garbage Pal Kids</span>
+                <span class="logo-divider">:</span>
+                <span class="logo-sa">Suburban Apocalypse</span>
+            </a>
+            <div class="nav-links">
+                <a href="#collection" class="nav-link">Collection</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#stats" class="nav-link">Stats</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">AI-GENERATED TRADING CARD COLLECTION</p>
+            <h1 class="hero-title">
+                <span class="hero-line1">GARBAGE</span>
+                <span class="hero-line2">PAL KIDS</span>
+            </h1>
+            <h2 class="hero-subtitle">TRADING CARD COLLECTION</h2>
+            <p class="hero-desc">AI-generated Garbage Pal Kids-style trading cards across 6 series — suburban nightmares, punk legends, GWAR warriors, comedy icons, and musical misfits. Generated with Flux Kontext AI.</p>
+            <div class="hero-actions">
+                <a href="#collection" class="btn btn-primary">View Collection</a>
+                <a href="#about" class="btn btn-outline">Learn More</a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="stat-num" id="hero-card-count">0</span>
+                    <span class="stat-label">Cards</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-num" id="hero-series-count">6</span>
+                    <span class="stat-label">Series</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-num" id="hero-image-count">0</span>
+                    <span class="stat-label">Generated</span>
+                </div>
+            </div>
+        </div>
+        <!-- Floating cards decoration -->
+        <div class="hero-cards" id="hero-cards"></div>
+    </section>
+
+    <!-- ── FEATURED ── -->
+    <section class="featured" id="featured">
+        <div class="section-inner">
+            <div class="section-header">
+                <p class="section-eyebrow">HIGHLIGHTED</p>
+                <h2 class="section-title">Featured <span class="accent">Cards</span></h2>
+            </div>
+            <div class="featured-grid" id="featured-grid">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ── COLLECTION ── -->
+    <section class="collection" id="collection">
+        <div class="section-inner">
+            <div class="section-header">
+                <p class="section-eyebrow">FULL SET</p>
+                <h2 class="section-title">The <span class="accent">Collection</span></h2>
+            </div>
+            <div class="controls">
+                <div class="series-group" id="series-group">
+                    <button class="series-btn active" data-series="all">All Series</button>
+                    <!-- Series buttons injected by JS -->
+                </div>
+                <div class="filter-group">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="framed">Framed</button>
+                    <button class="filter-btn" data-filter="raw">Raw Art</button>
+                </div>
+                <div class="sort-group">
+                    <label>Sort:</label>
+                    <select id="sort-select">
+                        <option value="number">Card #</option>
+                        <option value="name">Name</option>
+                    </select>
+                </div>
+                <span class="card-count" id="card-count"></span>
+            </div>
+            <div class="gallery" id="gallery">
+                <div class="loading" id="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Loading cards...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section class="about" id="about">
+        <div class="section-inner">
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="section-eyebrow">THE PROJECT</p>
+                    <h2 class="section-title">What is <span class="accent">GarbagePal Kids</span>?</h2>
+                    <p>GarbagePal Kids is an AI-generated trading card collection inspired by the classic Garbage Pail Kids series. Across 6 themed series — Suburban Apocalypse, Punk, GWAR, Comedians, Bonus, and Music — each card captures a different grotesque caricature in the style of the original Topps cards.</p>
+                    <p>Every card is generated using <strong>Flux Kontext</strong> by Black Forest Labs. The Suburban Apocalypse series features composited trading card frames with titles, numbers, and the classic A/B name variant system.</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-card">
+                        <div class="info-icon">🎨</div>
+                        <h3>AI Generated</h3>
+                        <p>Flux Kontext produces the art from detailed character descriptions.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🃏</div>
+                        <h3>Classic Format</h3>
+                        <p>Every card gets A/B name variants, card numbers, and series framing.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">💀</div>
+                        <h3>6 Series</h3>
+                        <p>Suburban horror, punk legends, GWAR, comedy icons, and musical misfits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── STATS ── -->
+    <section class="stats-section" id="stats">
+        <div class="section-inner">
+            <div class="section-header">
+                <p class="section-eyebrow">NUMBERS</p>
+                <h2 class="section-title">Collection <span class="accent">Stats</span></h2>
+            </div>
+            <div class="stats-grid" id="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-big" id="stat-total">0</span>
+                    <span class="stat-desc">Total Cards Defined</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-big" id="stat-generated">0</span>
+                    <span class="stat-desc">Images Generated</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-big" id="stat-framed">0</span>
+                    <span class="stat-desc">Cards Framed</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-big" id="stat-pending">0</span>
+                    <span class="stat-desc">Still Pending</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── EMPTY STATE ── -->
+    <div class="empty-state" id="empty-state" hidden>
+        <div class="empty-icon">🃏</div>
+        <h3>No cards generated yet</h3>
+        <p>Run the generator to create card art:</p>
+        <pre><code>cd generator
+python generate.py --card "Neighborhood Ned"
+python batch.py --filter all</code></pre>
+    </div>
+
+    <!-- ── LIGHTBOX ── -->
+    <div class="lightbox" id="lightbox" hidden>
+        <button class="lightbox-close" id="lightbox-close">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev">&#8249;</button>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next">&#8250;</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" alt="">
+            <div class="lightbox-info" id="lightbox-info">
+                <h3 id="lightbox-name"></h3>
+                <p id="lightbox-aka"></p>
+                <p id="lightbox-number"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── FOOTER ── -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="logo-gpk">Garbage Pal Kids</span><span class="logo-divider">:</span><span class="logo-sa">Suburban Apocalypse</span>
+            </div>
+            <div class="footer-links">
+                <a href="#collection">Collection</a>
+                <a href="#about">About</a>
+                <a href="https://bfl.ai" target="_blank">Flux Kontext</a>
+            </div>
+            <p class="footer-copy">Feb 7th 2026 &bull; Made by Ryan &amp; HoWell AI &bull; rlv.lol</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
