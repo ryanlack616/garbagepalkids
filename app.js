@@ -172,7 +172,7 @@
     div.className = 'card';
     div.dataset.index = index;
 
-    const imgSrc = card.raw;
+    const imgSrc = card.framed || card.raw;
     const seriesId = card.seriesId || 'sa';
 
     // Image wrapper
@@ -293,7 +293,7 @@
     if (!card) return;
 
     lightboxIndex = index;
-    lightboxImg.src = card.raw;
+    lightboxImg.src = card.framed || card.raw;
     lightboxName.textContent = card.name;
     lightboxAka.textContent = card.other_name ? `a.k.a. "${card.other_name}"` : '';
     const label = getCardLabel(card);

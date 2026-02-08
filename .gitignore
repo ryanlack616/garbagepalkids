@@ -1,0 +1,8 @@
+.env
+.venv/
+generator/
+deploy.py
+_quick_deploy.py
+ftp_deploy.ps1
+__pycache__/
+*.pyc

@@ -384,7 +384,7 @@
       "variant": "a",
       "name": "Watchdog Walt",
       "other_name": "Neighborhood Ned",
-      "raw": "cards/SA-18a_watchdog-walt.png",
+      "raw": null,
       "framed": "cards/framed/SA-18a_watchdog-walt_framed.png",
       "status": "framed",
       "seriesId": "sa"
@@ -394,7 +394,7 @@
       "variant": "b",
       "name": "Neighborhood Ned",
       "other_name": "Watchdog Walt",
-      "raw": "cards/SA-18b_neighborhood-ned.png",
+      "raw": null,
       "framed": "cards/framed/SA-18b_neighborhood-ned_framed.png",
       "status": "framed",
       "seriesId": "sa"
