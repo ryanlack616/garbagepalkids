@@ -1,7 +1,37 @@
 {
-  "series": "Suburban Apocalypse",
-  "prefix": "SA",
-  "generated": "2026-02-08 11:40:03",
+  "generated": "2026-02-08 11:58:49",
+  "collections": [
+    {
+      "id": "sa",
+      "name": "Suburban Apocalypse",
+      "prefix": "SA",
+      "count": 36
+    },
+    {
+      "id": "punk",
+      "name": "Punk Legends",
+      "prefix": "PK",
+      "count": 11
+    },
+    {
+      "id": "gwar",
+      "name": "GWAR Warriors",
+      "prefix": "GW",
+      "count": 11
+    },
+    {
+      "id": "comedy",
+      "name": "Comedy Icons",
+      "prefix": "CI",
+      "count": 10
+    },
+    {
+      "id": "music",
+      "name": "Musical Misfits",
+      "prefix": "MM",
+      "count": 9
+    }
+  ],
   "cards": [
     {
       "number": 1,
@@ -9,8 +39,9 @@
       "name": "Moldy Marty",
       "other_name": "Sporey Cory",
       "raw": "cards/SA-01a_moldy-marty.png",
-      "framed": "cards/framed/SA-01a_moldy-marty_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-01a_moldy-marty_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 1,
@@ -18,8 +49,9 @@
       "name": "Sporey Cory",
       "other_name": "Moldy Marty",
       "raw": "cards/SA-01b_sporey-cory.png",
-      "framed": "cards/framed/SA-01b_sporey-cory_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-01b_sporey-cory_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 2,
@@ -27,8 +59,9 @@
       "name": "Sprinkler Spence",
       "other_name": "Drownin' Devin",
       "raw": "cards/SA-02a_sprinkler-spence.png",
-      "framed": "cards/framed/SA-02a_sprinkler-spence_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-02a_sprinkler-spence_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 2,
@@ -36,8 +69,9 @@
       "name": "Drownin' Devin",
       "other_name": "Sprinkler Spence",
       "raw": "cards/SA-02b_drownin-devin.png",
-      "framed": "cards/framed/SA-02b_drownin-devin_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-02b_drownin-devin_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 3,
@@ -45,8 +79,9 @@
       "name": "HOA Hank",
       "other_name": "Fine-Line Frank",
       "raw": "cards/SA-03a_hoa-hank.png",
-      "framed": "cards/framed/SA-03a_hoa-hank_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-03a_hoa-hank_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 3,
@@ -54,8 +89,9 @@
       "name": "Fine-Line Frank",
       "other_name": "HOA Hank",
       "raw": "cards/SA-03b_fine-line-frank.png",
-      "framed": "cards/framed/SA-03b_fine-line-frank_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-03b_fine-line-frank_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 4,
@@ -63,8 +99,9 @@
       "name": "BBQ Blake",
       "other_name": "Charred Chad",
       "raw": "cards/SA-04a_bbq-blake.png",
-      "framed": "cards/framed/SA-04a_bbq-blake_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-04a_bbq-blake_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 4,
@@ -72,8 +109,9 @@
       "name": "Charred Chad",
       "other_name": "BBQ Blake",
       "raw": "cards/SA-04b_charred-chad.png",
-      "framed": "cards/framed/SA-04b_charred-chad_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-04b_charred-chad_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 5,
@@ -81,8 +119,9 @@
       "name": "Mulch Mouth Mel",
       "other_name": "Compost Kyle",
       "raw": "cards/SA-05a_mulch-mouth-mel.png",
-      "framed": "cards/framed/SA-05a_mulch-mouth-mel_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-05a_mulch-mouth-mel_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 5,
@@ -90,8 +129,9 @@
       "name": "Compost Kyle",
       "other_name": "Mulch Mouth Mel",
       "raw": "cards/SA-05b_compost-kyle.png",
-      "framed": "cards/framed/SA-05b_compost-kyle_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-05b_compost-kyle_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 6,
@@ -99,8 +139,9 @@
       "name": "Leaf-Bag Lee",
       "other_name": "Rake-Face Ray",
       "raw": "cards/SA-06a_leaf-bag-lee.png",
-      "framed": "cards/framed/SA-06a_leaf-bag-lee_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-06a_leaf-bag-lee_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 6,
@@ -108,8 +149,9 @@
       "name": "Rake-Face Ray",
       "other_name": "Leaf-Bag Lee",
       "raw": "cards/SA-06b_rake-face-ray.png",
-      "framed": "cards/framed/SA-06b_rake-face-ray_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-06b_rake-face-ray_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 7,
@@ -117,8 +159,9 @@
       "name": "Detention Dan",
       "other_name": "Suspended Sid",
       "raw": "cards/SA-07a_detention-dan.png",
-      "framed": "cards/framed/SA-07a_detention-dan_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-07a_detention-dan_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 7,
@@ -126,8 +169,9 @@
       "name": "Suspended Sid",
       "other_name": "Detention Dan",
       "raw": "cards/SA-07b_suspended-sid.png",
-      "framed": "cards/framed/SA-07b_suspended-sid_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-07b_suspended-sid_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 8,
@@ -135,8 +179,9 @@
       "name": "Quiz-Bleed Quinn",
       "other_name": "Test-Press Tess",
       "raw": "cards/SA-08a_quiz-bleed-quinn.png",
-      "framed": "cards/framed/SA-08a_quiz-bleed-quinn_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-08a_quiz-bleed-quinn_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 8,
@@ -144,8 +189,9 @@
       "name": "Test-Press Tess",
       "other_name": "Quiz-Bleed Quinn",
       "raw": "cards/SA-08b_test-press-tess.png",
-      "framed": "cards/framed/SA-08b_test-press-tess_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-08b_test-press-tess_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 9,
@@ -153,8 +199,9 @@
       "name": "Locker-Rot Rob",
       "other_name": "Coffin Case Carl",
       "raw": "cards/SA-09a_locker-rot-rob.png",
-      "framed": "cards/framed/SA-09a_locker-rot-rob_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-09a_locker-rot-rob_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 9,
@@ -162,8 +209,9 @@
       "name": "Coffin Case Carl",
       "other_name": "Locker-Rot Rob",
       "raw": "cards/SA-09b_coffin-case-carl.png",
-      "framed": "cards/framed/SA-09b_coffin-case-carl_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-09b_coffin-case-carl_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 10,
@@ -171,8 +219,9 @@
       "name": "Hall-Pass Pat",
       "other_name": "Truancy Troy",
       "raw": "cards/SA-10a_hall-pass-pat.png",
-      "framed": "cards/framed/SA-10a_hall-pass-pat_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-10a_hall-pass-pat_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 10,
@@ -180,8 +229,9 @@
       "name": "Truancy Troy",
       "other_name": "Hall-Pass Pat",
       "raw": "cards/SA-10b_truancy-troy.png",
-      "framed": "cards/framed/SA-10b_truancy-troy_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-10b_truancy-troy_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 11,
@@ -189,8 +239,9 @@
       "name": "Substitute Sue",
       "other_name": "Long-Term Lorrie",
       "raw": "cards/SA-11a_substitute-sue.png",
-      "framed": "cards/framed/SA-11a_substitute-sue_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-11a_substitute-sue_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 11,
@@ -198,8 +249,9 @@
       "name": "Long-Term Lorrie",
       "other_name": "Substitute Sue",
       "raw": "cards/SA-11b_long-term-lorrie.png",
-      "framed": "cards/framed/SA-11b_long-term-lorrie_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-11b_long-term-lorrie_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 12,
@@ -207,8 +259,9 @@
       "name": "Guidance Gail",
       "other_name": "Career-Path Pam",
       "raw": "cards/SA-12a_guidance-gail.png",
-      "framed": "cards/framed/SA-12a_guidance-gail_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-12a_guidance-gail_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 12,
@@ -216,8 +269,9 @@
       "name": "Career-Path Pam",
       "other_name": "Guidance Gail",
       "raw": "cards/SA-12b_career-path-pam.png",
-      "framed": "cards/framed/SA-12b_career-path-pam_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-12b_career-path-pam_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 13,
@@ -225,8 +279,9 @@
       "name": "Officer Ooze",
       "other_name": "Badge-Melt Brent",
       "raw": "cards/SA-13a_officer-ooze.png",
-      "framed": "cards/framed/SA-13a_officer-ooze_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-13a_officer-ooze_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 13,
@@ -234,8 +289,9 @@
       "name": "Badge-Melt Brent",
       "other_name": "Officer Ooze",
       "raw": "cards/SA-13b_badge-melt-brent.png",
-      "framed": "cards/framed/SA-13b_badge-melt-brent_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-13b_badge-melt-brent_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 14,
@@ -243,8 +299,9 @@
       "name": "Mayor Rot",
       "other_name": "Campaign Cain",
       "raw": "cards/SA-14a_mayor-rot.png",
-      "framed": "cards/framed/SA-14a_mayor-rot_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-14a_mayor-rot_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 14,
@@ -252,8 +309,9 @@
       "name": "Campaign Cain",
       "other_name": "Mayor Rot",
       "raw": "cards/SA-14b_campaign-cain.png",
-      "framed": "cards/framed/SA-14b_campaign-cain_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-14b_campaign-cain_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 15,
@@ -261,8 +319,9 @@
       "name": "Judge Sludge",
       "other_name": "Verdict Vern",
       "raw": "cards/SA-15a_judge-sludge.png",
-      "framed": "cards/framed/SA-15a_judge-sludge_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-15a_judge-sludge_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 15,
@@ -270,8 +329,9 @@
       "name": "Verdict Vern",
       "other_name": "Judge Sludge",
       "raw": "cards/SA-15b_verdict-vern.png",
-      "framed": "cards/framed/SA-15b_verdict-vern_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-15b_verdict-vern_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 16,
@@ -279,8 +339,9 @@
       "name": "Principal Punx",
       "other_name": "Zero-Tolerance Zed",
       "raw": "cards/SA-16a_principal-punx.png",
-      "framed": "cards/framed/SA-16a_principal-punx_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-16a_principal-punx_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 16,
@@ -288,8 +349,9 @@
       "name": "Zero-Tolerance Zed",
       "other_name": "Principal Punx",
       "raw": "cards/SA-16b_zero-tolerance-zed.png",
-      "framed": "cards/framed/SA-16b_zero-tolerance-zed_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-16b_zero-tolerance-zed_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 17,
@@ -297,8 +359,9 @@
       "name": "Crossing-Guard Greg",
       "other_name": "Traffic-Tarp Tom",
       "raw": "cards/SA-17a_crossing-guard-greg.png",
-      "framed": "cards/framed/SA-17a_crossing-guard-greg_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-17a_crossing-guard-greg_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 17,
@@ -306,8 +369,9 @@
       "name": "Traffic-Tarp Tom",
       "other_name": "Crossing-Guard Greg",
       "raw": "cards/SA-17b_traffic-tarp-tom.png",
-      "framed": "cards/framed/SA-17b_traffic-tarp-tom_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-17b_traffic-tarp-tom_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 18,
@@ -315,8 +379,9 @@
       "name": "Watchdog Walt",
       "other_name": "Neighborhood Ned",
       "raw": "cards/SA-18a_watchdog-walt.png",
-      "framed": "cards/framed/SA-18a_watchdog-walt_framed.png",
-      "status": "framed"
+      "framed": "cards/framed/SA-18a_watchdog-walt_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
     },
     {
       "number": 18,
@@ -324,7 +389,336 @@
       "name": "Neighborhood Ned",
       "other_name": "Watchdog Walt",
       "raw": "cards/SA-18b_neighborhood-ned.png",
-      "framed": "cards/framed/SA-18b_neighborhood-ned_framed.png",
+      "framed": "cards/framed/SA-18b_neighborhood-ned_framed.webp",
+      "status": "framed",
+      "seriesId": "sa"
+    },
+    {
+      "number": 1,
+      "name": "Mohawk Mike",
+      "seriesId": "punk",
+      "raw": "cards/GPK-01_mohawk-mike.png",
+      "framed": "cards/framed/GPK-01_mohawk-mike_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 2,
+      "name": "Thrash Travis",
+      "seriesId": "punk",
+      "raw": "cards/GPK-02_thrash-travis.png",
+      "framed": "cards/framed/GPK-02_thrash-travis_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 3,
+      "name": "Studded Steve",
+      "seriesId": "punk",
+      "raw": "cards/GPK-03_studded-steve.png",
+      "framed": "cards/framed/GPK-03_studded-steve_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 4,
+      "name": "Fiend Fred",
+      "seriesId": "punk",
+      "raw": "cards/GPK-04_fiend-fred.png",
+      "framed": "cards/framed/GPK-04_fiend-fred_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 5,
+      "name": "Jello Jake",
+      "seriesId": "punk",
+      "raw": "cards/GPK-05_jello-jake.png",
+      "framed": "cards/framed/GPK-05_jello-jake_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 6,
+      "name": "Amplifier Andy",
+      "seriesId": "punk",
+      "raw": "cards/GPK-06_amplifier-andy.png",
+      "framed": "cards/framed/GPK-06_amplifier-andy_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 7,
+      "name": "Stage Dive Dan",
+      "seriesId": "punk",
+      "raw": "cards/GPK-07_stage-dive-dan.png",
+      "framed": "cards/framed/GPK-07_stage-dive-dan_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 8,
+      "name": "Mohican Mark",
+      "seriesId": "punk",
+      "raw": "cards/GPK-08_mohican-mark.png",
+      "framed": "cards/framed/GPK-08_mohican-mark_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 9,
+      "name": "Danzig Danny",
+      "seriesId": "punk",
+      "raw": "cards/GPK-09_danzig-danny.png",
+      "framed": "cards/framed/GPK-09_danzig-danny_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 10,
+      "name": "Rancid Randy",
+      "seriesId": "punk",
+      "raw": "cards/GPK-10_rancid-randy.png",
+      "framed": "cards/framed/GPK-10_rancid-randy_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 11,
+      "name": "Slam Dance Sam",
+      "seriesId": "punk",
+      "raw": "cards/GPK-11_slam-dance-sam.png",
+      "framed": "cards/framed/GPK-11_slam-dance-sam_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 12,
+      "name": "Oderus Icky",
+      "seriesId": "gwar",
+      "raw": "cards/GPK-12_oderus-icky.png",
+      "framed": "cards/framed/GPK-12_oderus-icky_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 13,
+      "name": "Splatter Sam",
+      "seriesId": "gwar",
+      "raw": "cards/GPK-13_splatter-sam.png",
+      "framed": "cards/framed/GPK-13_splatter-sam_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 14,
+      "name": "Balsac Bobby",
+      "seriesId": "gwar",
+      "raw": "cards/GPK-14_balsac-bobby.png",
+      "framed": "cards/framed/GPK-14_balsac-bobby_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 15,
+      "name": "Sleazy Steve",
+      "seriesId": "gwar",
+      "raw": "cards/GPK-15_sleazy-steve.png",
+      "framed": "cards/framed/GPK-15_sleazy-steve_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 16,
+      "name": "Flattus Freddy",
+      "seriesId": "gwar",
+      "raw": "cards/GPK-16_flattus-freddy.png",
+      "framed": "cards/framed/GPK-16_flattus-freddy_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 17,
+      "name": "Jizmak Jake",
+      "seriesId": "gwar",
+      "raw": "cards/GPK-17_jizmak-jake.png",
+      "framed": "cards/framed/GPK-17_jizmak-jake_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 18,
+      "name": "Vulvatron Vicky",
+      "seriesId": "gwar",
+      "raw": "cards/GPK-18_vulvatron-vicky.png",
+      "framed": "cards/framed/GPK-18_vulvatron-vicky_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 19,
+      "name": "Bonesnapper Brad",
+      "seriesId": "gwar",
+      "raw": "cards/GPK-19_bonesnapper-brad.png",
+      "framed": "cards/framed/GPK-19_bonesnapper-brad_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 20,
+      "name": "Pustulus Paul",
+      "seriesId": "gwar",
+      "raw": "cards/GPK-20_pustulus-paul.png",
+      "framed": "cards/framed/GPK-20_pustulus-paul_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 21,
+      "name": "Slymenstra Hymen",
+      "seriesId": "gwar",
+      "raw": "cards/GPK-21_slymenstra-hymen.png",
+      "framed": "cards/framed/GPK-21_slymenstra-hymen_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 22,
+      "name": "Costume Carnage Carl",
+      "seriesId": "gwar",
+      "raw": "cards/GPK-22_costume-carnage-carl.png",
+      "framed": "cards/framed/GPK-22_costume-carnage-carl_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 23,
+      "name": "Mel Brooks",
+      "seriesId": "comedy",
+      "raw": "cards/GPK-23_mel-brooks.png",
+      "framed": "cards/framed/GPK-23_mel-brooks_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 24,
+      "name": "Rodney Dangerfield",
+      "seriesId": "comedy",
+      "raw": "cards/GPK-24_rodney-dangerfield.png",
+      "framed": "cards/framed/GPK-24_rodney-dangerfield_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 25,
+      "name": "Woody Allen",
+      "seriesId": "comedy",
+      "raw": "cards/GPK-25_woody-allen.png",
+      "framed": "cards/framed/GPK-25_woody-allen_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 26,
+      "name": "Dom Deluise",
+      "seriesId": "comedy",
+      "raw": "cards/GPK-26_dom-deluise.png",
+      "framed": "cards/framed/GPK-26_dom-deluise_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 27,
+      "name": "Gene Wilder",
+      "seriesId": "comedy",
+      "raw": "cards/GPK-27_gene-wilder.png",
+      "framed": "cards/framed/GPK-27_gene-wilder_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 28,
+      "name": "George Carlin",
+      "seriesId": "comedy",
+      "raw": "cards/GPK-28_george-carlin.png",
+      "framed": "cards/framed/GPK-28_george-carlin_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 29,
+      "name": "John Candy",
+      "seriesId": "comedy",
+      "raw": "cards/GPK-29_john-candy.png",
+      "framed": "cards/framed/GPK-29_john-candy_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 30,
+      "name": "Andy Kaufman",
+      "seriesId": "comedy",
+      "raw": "cards/GPK-30_andy-kaufman.png",
+      "framed": "cards/framed/GPK-30_andy-kaufman_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 31,
+      "name": "Monty Python",
+      "seriesId": "comedy",
+      "raw": "cards/GPK-31_monty-python.png",
+      "framed": "cards/framed/GPK-31_monty-python_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 32,
+      "name": "Kids In The Hall",
+      "seriesId": "comedy",
+      "raw": "cards/GPK-32_kids-in-the-hall.png",
+      "framed": "cards/framed/GPK-32_kids-in-the-hall_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 33,
+      "name": "Misfits Mike",
+      "seriesId": "music",
+      "raw": "cards/GPK-33_misfits-mike.png",
+      "framed": "cards/framed/GPK-33_misfits-mike_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 34,
+      "name": "Dead Kennedys",
+      "seriesId": "music",
+      "raw": "cards/GPK-34_dead-kennedys.png",
+      "framed": "cards/framed/GPK-34_dead-kennedys_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 35,
+      "name": "Dead Milkmen",
+      "seriesId": "music",
+      "raw": "cards/GPK-35_dead-milkmen.png",
+      "framed": "cards/framed/GPK-35_dead-milkmen_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 36,
+      "name": "Devo Danny",
+      "seriesId": "music",
+      "raw": "cards/GPK-36_devo-danny.png",
+      "framed": "cards/framed/GPK-36_devo-danny_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 37,
+      "name": "Wesley Willis",
+      "seriesId": "music",
+      "raw": "cards/GPK-37_wesley-willis.png",
+      "framed": "cards/framed/GPK-37_wesley-willis_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 38,
+      "name": "Ween Dean",
+      "seriesId": "music",
+      "raw": "cards/GPK-38_ween-dean.png",
+      "framed": "cards/framed/GPK-38_ween-dean_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 39,
+      "name": "Mr Bungle",
+      "seriesId": "music",
+      "raw": "cards/GPK-39_mr-bungle.png",
+      "framed": "cards/framed/GPK-39_mr-bungle_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 40,
+      "name": "Primus Pete",
+      "seriesId": "music",
+      "raw": "cards/GPK-40_primus-pete.png",
+      "framed": "cards/framed/GPK-40_primus-pete_framed.webp",
+      "status": "framed"
+    },
+    {
+      "number": 41,
+      "name": "Frank Zappa",
+      "seriesId": "music",
+      "raw": "cards/GPK-41_frank-zappa.png",
+      "framed": "cards/framed/GPK-41_frank-zappa_framed.webp",
       "status": "framed"
     }
   ]
