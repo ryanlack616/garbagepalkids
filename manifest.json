@@ -44,8 +44,8 @@
       "variant": "a",
       "name": "Moldy Marty",
       "other_name": "Sporey Cory",
-      "raw": "cards/SA-01a_moldy-marty.png",
-      "framed": "cards/framed/SA-01a_moldy-marty_framed.png",
+      "raw": "cards/SA-01a_moldy-marty.webp",
+      "framed": "cards/framed/SA-01a_moldy-marty_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -54,8 +54,8 @@
       "variant": "b",
       "name": "Sporey Cory",
       "other_name": "Moldy Marty",
-      "raw": "cards/SA-01b_sporey-cory.png",
-      "framed": "cards/framed/SA-01b_sporey-cory_framed.png",
+      "raw": "cards/SA-01b_sporey-cory.webp",
+      "framed": "cards/framed/SA-01b_sporey-cory_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -64,8 +64,8 @@
       "variant": "a",
       "name": "Sprinkler Spence",
       "other_name": "Drownin' Devin",
-      "raw": "cards/SA-02a_sprinkler-spence.png",
-      "framed": "cards/framed/SA-02a_sprinkler-spence_framed.png",
+      "raw": "cards/SA-02a_sprinkler-spence.webp",
+      "framed": "cards/framed/SA-02a_sprinkler-spence_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -74,8 +74,8 @@
       "variant": "b",
       "name": "Drownin' Devin",
       "other_name": "Sprinkler Spence",
-      "raw": "cards/SA-02b_drownin-devin.png",
-      "framed": "cards/framed/SA-02b_drownin-devin_framed.png",
+      "raw": "cards/SA-02b_drownin-devin.webp",
+      "framed": "cards/framed/SA-02b_drownin-devin_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -84,8 +84,8 @@
       "variant": "a",
       "name": "HOA Hank",
       "other_name": "Fine-Line Frank",
-      "raw": "cards/SA-03a_hoa-hank.png",
-      "framed": "cards/framed/SA-03a_hoa-hank_framed.png",
+      "raw": "cards/SA-03a_hoa-hank.webp",
+      "framed": "cards/framed/SA-03a_hoa-hank_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -94,8 +94,8 @@
       "variant": "b",
       "name": "Fine-Line Frank",
       "other_name": "HOA Hank",
-      "raw": "cards/SA-03b_fine-line-frank.png",
-      "framed": "cards/framed/SA-03b_fine-line-frank_framed.png",
+      "raw": "cards/SA-03b_fine-line-frank.webp",
+      "framed": "cards/framed/SA-03b_fine-line-frank_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -104,8 +104,8 @@
       "variant": "a",
       "name": "BBQ Blake",
       "other_name": "Charred Chad",
-      "raw": "cards/SA-04a_bbq-blake.png",
-      "framed": "cards/framed/SA-04a_bbq-blake_framed.png",
+      "raw": "cards/SA-04a_bbq-blake.webp",
+      "framed": "cards/framed/SA-04a_bbq-blake_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -114,8 +114,8 @@
       "variant": "b",
       "name": "Charred Chad",
       "other_name": "BBQ Blake",
-      "raw": "cards/SA-04b_charred-chad.png",
-      "framed": "cards/framed/SA-04b_charred-chad_framed.png",
+      "raw": "cards/SA-04b_charred-chad.webp",
+      "framed": "cards/framed/SA-04b_charred-chad_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -124,8 +124,8 @@
       "variant": "a",
       "name": "Mulch Mouth Mel",
       "other_name": "Compost Kyle",
-      "raw": "cards/SA-05a_mulch-mouth-mel.png",
-      "framed": "cards/framed/SA-05a_mulch-mouth-mel_framed.png",
+      "raw": "cards/SA-05a_mulch-mouth-mel.webp",
+      "framed": "cards/framed/SA-05a_mulch-mouth-mel_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -134,8 +134,8 @@
       "variant": "b",
       "name": "Compost Kyle",
       "other_name": "Mulch Mouth Mel",
-      "raw": "cards/SA-05b_compost-kyle.png",
-      "framed": "cards/framed/SA-05b_compost-kyle_framed.png",
+      "raw": "cards/SA-05b_compost-kyle.webp",
+      "framed": "cards/framed/SA-05b_compost-kyle_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -144,8 +144,8 @@
       "variant": "a",
       "name": "Leaf-Bag Lee",
       "other_name": "Rake-Face Ray",
-      "raw": "cards/SA-06a_leaf-bag-lee.png",
-      "framed": "cards/framed/SA-06a_leaf-bag-lee_framed.png",
+      "raw": "cards/SA-06a_leaf-bag-lee.webp",
+      "framed": "cards/framed/SA-06a_leaf-bag-lee_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -154,8 +154,8 @@
       "variant": "b",
       "name": "Rake-Face Ray",
       "other_name": "Leaf-Bag Lee",
-      "raw": "cards/SA-06b_rake-face-ray.png",
-      "framed": "cards/framed/SA-06b_rake-face-ray_framed.png",
+      "raw": "cards/SA-06b_rake-face-ray.webp",
+      "framed": "cards/framed/SA-06b_rake-face-ray_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -164,8 +164,8 @@
       "variant": "a",
       "name": "Detention Dan",
       "other_name": "Suspended Sid",
-      "raw": "cards/SA-07a_detention-dan.png",
-      "framed": "cards/framed/SA-07a_detention-dan_framed.png",
+      "raw": "cards/SA-07a_detention-dan.webp",
+      "framed": "cards/framed/SA-07a_detention-dan_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -174,8 +174,8 @@
       "variant": "b",
       "name": "Suspended Sid",
       "other_name": "Detention Dan",
-      "raw": "cards/SA-07b_suspended-sid.png",
-      "framed": "cards/framed/SA-07b_suspended-sid_framed.png",
+      "raw": "cards/SA-07b_suspended-sid.webp",
+      "framed": "cards/framed/SA-07b_suspended-sid_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -184,8 +184,8 @@
       "variant": "a",
       "name": "Quiz-Bleed Quinn",
       "other_name": "Test-Press Tess",
-      "raw": "cards/SA-08a_quiz-bleed-quinn.png",
-      "framed": "cards/framed/SA-08a_quiz-bleed-quinn_framed.png",
+      "raw": "cards/SA-08a_quiz-bleed-quinn.webp",
+      "framed": "cards/framed/SA-08a_quiz-bleed-quinn_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -194,8 +194,8 @@
       "variant": "b",
       "name": "Test-Press Tess",
       "other_name": "Quiz-Bleed Quinn",
-      "raw": "cards/SA-08b_test-press-tess.png",
-      "framed": "cards/framed/SA-08b_test-press-tess_framed.png",
+      "raw": "cards/SA-08b_test-press-tess.webp",
+      "framed": "cards/framed/SA-08b_test-press-tess_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -204,8 +204,8 @@
       "variant": "a",
       "name": "Locker-Rot Rob",
       "other_name": "Coffin Case Carl",
-      "raw": "cards/SA-09a_locker-rot-rob.png",
-      "framed": "cards/framed/SA-09a_locker-rot-rob_framed.png",
+      "raw": "cards/SA-09a_locker-rot-rob.webp",
+      "framed": "cards/framed/SA-09a_locker-rot-rob_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -214,8 +214,8 @@
       "variant": "b",
       "name": "Coffin Case Carl",
       "other_name": "Locker-Rot Rob",
-      "raw": "cards/SA-09b_coffin-case-carl.png",
-      "framed": "cards/framed/SA-09b_coffin-case-carl_framed.png",
+      "raw": "cards/SA-09b_coffin-case-carl.webp",
+      "framed": "cards/framed/SA-09b_coffin-case-carl_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -224,8 +224,8 @@
       "variant": "a",
       "name": "Hall-Pass Pat",
       "other_name": "Truancy Troy",
-      "raw": "cards/SA-10a_hall-pass-pat.png",
-      "framed": "cards/framed/SA-10a_hall-pass-pat_framed.png",
+      "raw": "cards/SA-10a_hall-pass-pat.webp",
+      "framed": "cards/framed/SA-10a_hall-pass-pat_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -234,8 +234,8 @@
       "variant": "b",
       "name": "Truancy Troy",
       "other_name": "Hall-Pass Pat",
-      "raw": "cards/SA-10b_truancy-troy.png",
-      "framed": "cards/framed/SA-10b_truancy-troy_framed.png",
+      "raw": "cards/SA-10b_truancy-troy.webp",
+      "framed": "cards/framed/SA-10b_truancy-troy_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -244,8 +244,8 @@
       "variant": "a",
       "name": "Substitute Sue",
       "other_name": "Long-Term Lorrie",
-      "raw": "cards/SA-11a_substitute-sue.png",
-      "framed": "cards/framed/SA-11a_substitute-sue_framed.png",
+      "raw": "cards/SA-11a_substitute-sue.webp",
+      "framed": "cards/framed/SA-11a_substitute-sue_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -254,8 +254,8 @@
       "variant": "b",
       "name": "Long-Term Lorrie",
       "other_name": "Substitute Sue",
-      "raw": "cards/SA-11b_long-term-lorrie.png",
-      "framed": "cards/framed/SA-11b_long-term-lorrie_framed.png",
+      "raw": "cards/SA-11b_long-term-lorrie.webp",
+      "framed": "cards/framed/SA-11b_long-term-lorrie_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -264,8 +264,8 @@
       "variant": "a",
       "name": "Guidance Gail",
       "other_name": "Career-Path Pam",
-      "raw": "cards/SA-12a_guidance-gail.png",
-      "framed": "cards/framed/SA-12a_guidance-gail_framed.png",
+      "raw": "cards/SA-12a_guidance-gail.webp",
+      "framed": "cards/framed/SA-12a_guidance-gail_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -274,8 +274,8 @@
       "variant": "b",
       "name": "Career-Path Pam",
       "other_name": "Guidance Gail",
-      "raw": "cards/SA-12b_career-path-pam.png",
-      "framed": "cards/framed/SA-12b_career-path-pam_framed.png",
+      "raw": "cards/SA-12b_career-path-pam.webp",
+      "framed": "cards/framed/SA-12b_career-path-pam_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -284,8 +284,8 @@
       "variant": "a",
       "name": "Officer Ooze",
       "other_name": "Badge-Melt Brent",
-      "raw": "cards/SA-13a_officer-ooze.png",
-      "framed": "cards/framed/SA-13a_officer-ooze_framed.png",
+      "raw": "cards/SA-13a_officer-ooze.webp",
+      "framed": "cards/framed/SA-13a_officer-ooze_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -294,8 +294,8 @@
       "variant": "b",
       "name": "Badge-Melt Brent",
       "other_name": "Officer Ooze",
-      "raw": "cards/SA-13b_badge-melt-brent.png",
-      "framed": "cards/framed/SA-13b_badge-melt-brent_framed.png",
+      "raw": "cards/SA-13b_badge-melt-brent.webp",
+      "framed": "cards/framed/SA-13b_badge-melt-brent_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -304,8 +304,8 @@
       "variant": "a",
       "name": "Mayor Rot",
       "other_name": "Campaign Cain",
-      "raw": "cards/SA-14a_mayor-rot.png",
-      "framed": "cards/framed/SA-14a_mayor-rot_framed.png",
+      "raw": "cards/SA-14a_mayor-rot.webp",
+      "framed": "cards/framed/SA-14a_mayor-rot_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -314,8 +314,8 @@
       "variant": "b",
       "name": "Campaign Cain",
       "other_name": "Mayor Rot",
-      "raw": "cards/SA-14b_campaign-cain.png",
-      "framed": "cards/framed/SA-14b_campaign-cain_framed.png",
+      "raw": "cards/SA-14b_campaign-cain.webp",
+      "framed": "cards/framed/SA-14b_campaign-cain_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -324,8 +324,8 @@
       "variant": "a",
       "name": "Judge Sludge",
       "other_name": "Verdict Vern",
-      "raw": "cards/SA-15a_judge-sludge.png",
-      "framed": "cards/framed/SA-15a_judge-sludge_framed.png",
+      "raw": "cards/SA-15a_judge-sludge.webp",
+      "framed": "cards/framed/SA-15a_judge-sludge_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -334,8 +334,8 @@
       "variant": "b",
       "name": "Verdict Vern",
       "other_name": "Judge Sludge",
-      "raw": "cards/SA-15b_verdict-vern.png",
-      "framed": "cards/framed/SA-15b_verdict-vern_framed.png",
+      "raw": "cards/SA-15b_verdict-vern.webp",
+      "framed": "cards/framed/SA-15b_verdict-vern_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -344,8 +344,8 @@
       "variant": "a",
       "name": "Principal Punx",
       "other_name": "Zero-Tolerance Zed",
-      "raw": "cards/SA-16a_principal-punx.png",
-      "framed": "cards/framed/SA-16a_principal-punx_framed.png",
+      "raw": "cards/SA-16a_principal-punx.webp",
+      "framed": "cards/framed/SA-16a_principal-punx_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -354,8 +354,8 @@
       "variant": "b",
       "name": "Zero-Tolerance Zed",
       "other_name": "Principal Punx",
-      "raw": "cards/SA-16b_zero-tolerance-zed.png",
-      "framed": "cards/framed/SA-16b_zero-tolerance-zed_framed.png",
+      "raw": "cards/SA-16b_zero-tolerance-zed.webp",
+      "framed": "cards/framed/SA-16b_zero-tolerance-zed_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -364,8 +364,8 @@
       "variant": "a",
       "name": "Crossing-Guard Greg",
       "other_name": "Traffic-Tarp Tom",
-      "raw": "cards/SA-17a_crossing-guard-greg.png",
-      "framed": "cards/framed/SA-17a_crossing-guard-greg_framed.png",
+      "raw": "cards/SA-17a_crossing-guard-greg.webp",
+      "framed": "cards/framed/SA-17a_crossing-guard-greg_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -374,8 +374,8 @@
       "variant": "b",
       "name": "Traffic-Tarp Tom",
       "other_name": "Crossing-Guard Greg",
-      "raw": "cards/SA-17b_traffic-tarp-tom.png",
-      "framed": "cards/framed/SA-17b_traffic-tarp-tom_framed.png",
+      "raw": "cards/SA-17b_traffic-tarp-tom.webp",
+      "framed": "cards/framed/SA-17b_traffic-tarp-tom_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -385,7 +385,7 @@
       "name": "Watchdog Walt",
       "other_name": "Neighborhood Ned",
       "raw": null,
-      "framed": "cards/framed/SA-18a_watchdog-walt_framed.png",
+      "framed": "cards/framed/SA-18a_watchdog-walt_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -395,7 +395,7 @@
       "name": "Neighborhood Ned",
       "other_name": "Watchdog Walt",
       "raw": null,
-      "framed": "cards/framed/SA-18b_neighborhood-ned_framed.png",
+      "framed": "cards/framed/SA-18b_neighborhood-ned_framed.webp",
       "status": "framed",
       "seriesId": "sa"
     },
@@ -404,7 +404,7 @@
       "variant": "a",
       "name": "Mohawk Mike",
       "other_name": null,
-      "raw": "cards/gpk/01_mohawk_mike.png",
+      "raw": "cards/gpk/01_mohawk_mike.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "punk"
@@ -414,7 +414,7 @@
       "variant": "a",
       "name": "Thrash Travis",
       "other_name": null,
-      "raw": "cards/gpk/02_thrash_travis.png",
+      "raw": "cards/gpk/02_thrash_travis.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "punk"
@@ -424,7 +424,7 @@
       "variant": "a",
       "name": "Studded Steve",
       "other_name": null,
-      "raw": "cards/gpk/03_studded_steve.png",
+      "raw": "cards/gpk/03_studded_steve.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "punk"
@@ -434,7 +434,7 @@
       "variant": "a",
       "name": "Fiend Fred",
       "other_name": null,
-      "raw": "cards/gpk/04_fiend_fred.png",
+      "raw": "cards/gpk/04_fiend_fred.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "punk"
@@ -444,7 +444,7 @@
       "variant": "a",
       "name": "Jello Jake",
       "other_name": null,
-      "raw": "cards/gpk/05_jello_jake.png",
+      "raw": "cards/gpk/05_jello_jake.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "punk"
@@ -454,7 +454,7 @@
       "variant": "a",
       "name": "Amplifier Andy",
       "other_name": null,
-      "raw": "cards/gpk/06_amplifier_andy.png",
+      "raw": "cards/gpk/06_amplifier_andy.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "punk"
@@ -464,7 +464,7 @@
       "variant": "a",
       "name": "Stage Dive Dan",
       "other_name": null,
-      "raw": "cards/gpk/07_stage_dive_dan.png",
+      "raw": "cards/gpk/07_stage_dive_dan.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "punk"
@@ -474,7 +474,7 @@
       "variant": "a",
       "name": "Mohican Mark",
       "other_name": null,
-      "raw": "cards/gpk/08_mohican_mark.png",
+      "raw": "cards/gpk/08_mohican_mark.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "punk"
@@ -484,7 +484,7 @@
       "variant": "a",
       "name": "Danzig Danny",
       "other_name": null,
-      "raw": "cards/gpk/09_danzig_danny.png",
+      "raw": "cards/gpk/09_danzig_danny.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "punk"
@@ -494,7 +494,7 @@
       "variant": "a",
       "name": "Rancid Randy",
       "other_name": null,
-      "raw": "cards/gpk/10_rancid_randy.png",
+      "raw": "cards/gpk/10_rancid_randy.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "punk"
@@ -504,7 +504,7 @@
       "variant": "a",
       "name": "Slam Dance Sam",
       "other_name": null,
-      "raw": "cards/gpk/11_slam_dance_sam.png",
+      "raw": "cards/gpk/11_slam_dance_sam.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "punk"
@@ -514,7 +514,7 @@
       "variant": "a",
       "name": "Oderus Icky",
       "other_name": null,
-      "raw": "cards/gpk/12_oderus_icky.png",
+      "raw": "cards/gpk/12_oderus_icky.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "gwar"
@@ -524,7 +524,7 @@
       "variant": "a",
       "name": "Splatter Sam",
       "other_name": null,
-      "raw": "cards/gpk/13_splatter_sam.png",
+      "raw": "cards/gpk/13_splatter_sam.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "gwar"
@@ -534,7 +534,7 @@
       "variant": "a",
       "name": "Balsac Bobby",
       "other_name": null,
-      "raw": "cards/gpk/14_balsac_bobby.png",
+      "raw": "cards/gpk/14_balsac_bobby.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "gwar"
@@ -544,7 +544,7 @@
       "variant": "a",
       "name": "Sleazy Steve",
       "other_name": null,
-      "raw": "cards/gpk/15_sleazy_steve.png",
+      "raw": "cards/gpk/15_sleazy_steve.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "gwar"
@@ -554,7 +554,7 @@
       "variant": "a",
       "name": "Flattus Freddy",
       "other_name": null,
-      "raw": "cards/gpk/16_flattus_freddy.png",
+      "raw": "cards/gpk/16_flattus_freddy.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "gwar"
@@ -564,7 +564,7 @@
       "variant": "a",
       "name": "Jizmak Jake",
       "other_name": null,
-      "raw": "cards/gpk/17_jizmak_jake.png",
+      "raw": "cards/gpk/17_jizmak_jake.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "gwar"
@@ -574,7 +574,7 @@
       "variant": "a",
       "name": "Vulvatron Vicky",
       "other_name": null,
-      "raw": "cards/gpk/18_vulvatron_vicky.png",
+      "raw": "cards/gpk/18_vulvatron_vicky.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "gwar"
@@ -584,7 +584,7 @@
       "variant": "a",
       "name": "Bonesnapper Brad",
       "other_name": null,
-      "raw": "cards/gpk/19_bonesnapper_brad.png",
+      "raw": "cards/gpk/19_bonesnapper_brad.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "gwar"
@@ -594,7 +594,7 @@
       "variant": "a",
       "name": "Pustulus Paul",
       "other_name": null,
-      "raw": "cards/gpk/20_pustulus_paul.png",
+      "raw": "cards/gpk/20_pustulus_paul.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "gwar"
@@ -604,7 +604,7 @@
       "variant": "a",
       "name": "Slymenstra Hymen",
       "other_name": null,
-      "raw": "cards/gpk/21_slymenstra_hymen.png",
+      "raw": "cards/gpk/21_slymenstra_hymen.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "gwar"
@@ -614,7 +614,7 @@
       "variant": "a",
       "name": "Costume Carnage Carl",
       "other_name": null,
-      "raw": "cards/gpk/22_costume_carnage_carl.png",
+      "raw": "cards/gpk/22_costume_carnage_carl.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "gwar"
@@ -624,7 +624,7 @@
       "variant": "a",
       "name": "Mel Brooks",
       "other_name": null,
-      "raw": "cards/gpk/23_mel_brooks.png",
+      "raw": "cards/gpk/23_mel_brooks.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "comedians"
@@ -634,7 +634,7 @@
       "variant": "a",
       "name": "Rodney Dangerfield",
       "other_name": null,
-      "raw": "cards/gpk/24_rodney_dangerfield.png",
+      "raw": "cards/gpk/24_rodney_dangerfield.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "comedians"
@@ -644,7 +644,7 @@
       "variant": "a",
       "name": "Woody Allen",
       "other_name": null,
-      "raw": "cards/gpk/25_woody_allen.png",
+      "raw": "cards/gpk/25_woody_allen.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "comedians"
@@ -654,7 +654,7 @@
       "variant": "a",
       "name": "Dom DeLuise",
       "other_name": null,
-      "raw": "cards/gpk/26_dom_deluise.png",
+      "raw": "cards/gpk/26_dom_deluise.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "comedians"
@@ -664,7 +664,7 @@
       "variant": "a",
       "name": "Gene Wilder",
       "other_name": null,
-      "raw": "cards/gpk/27_gene_wilder.png",
+      "raw": "cards/gpk/27_gene_wilder.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "comedians"
@@ -674,7 +674,7 @@
       "variant": "a",
       "name": "George Carlin",
       "other_name": null,
-      "raw": "cards/gpk/28_george_carlin.png",
+      "raw": "cards/gpk/28_george_carlin.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "comedians"
@@ -684,7 +684,7 @@
       "variant": "a",
       "name": "John Candy",
       "other_name": null,
-      "raw": "cards/gpk/29_john_candy.png",
+      "raw": "cards/gpk/29_john_candy.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "comedians"
@@ -694,7 +694,7 @@
       "variant": "a",
       "name": "Andy Kaufman",
       "other_name": null,
-      "raw": "cards/gpk/30_andy_kaufman.png",
+      "raw": "cards/gpk/30_andy_kaufman.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "comedians"
@@ -704,7 +704,7 @@
       "variant": "a",
       "name": "Monty Python",
       "other_name": null,
-      "raw": "cards/gpk/31_monty_python.png",
+      "raw": "cards/gpk/31_monty_python.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "bonus"
@@ -714,7 +714,7 @@
       "variant": "a",
       "name": "Kids in the Hall",
       "other_name": null,
-      "raw": "cards/gpk/32_kids_in_the_hall.png",
+      "raw": "cards/gpk/32_kids_in_the_hall.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "bonus"
@@ -724,7 +724,7 @@
       "variant": "a",
       "name": "Misfits Mike",
       "other_name": null,
-      "raw": "cards/gpk/33_misfits_mike.png",
+      "raw": "cards/gpk/33_misfits_mike.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "music"
@@ -734,7 +734,7 @@
       "variant": "a",
       "name": "Dead Kennedys",
       "other_name": null,
-      "raw": "cards/gpk/34_dead_kennedys.png",
+      "raw": "cards/gpk/34_dead_kennedys.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "music"
@@ -744,7 +744,7 @@
       "variant": "a",
       "name": "Dead Milkmen",
       "other_name": null,
-      "raw": "cards/gpk/35_dead_milkmen.png",
+      "raw": "cards/gpk/35_dead_milkmen.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "music"
@@ -754,7 +754,7 @@
       "variant": "a",
       "name": "Devo Danny",
       "other_name": null,
-      "raw": "cards/gpk/36_devo_danny.png",
+      "raw": "cards/gpk/36_devo_danny.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "music"
@@ -764,7 +764,7 @@
       "variant": "a",
       "name": "Wesley Willis",
       "other_name": null,
-      "raw": "cards/gpk/37_wesley_willis.png",
+      "raw": "cards/gpk/37_wesley_willis.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "music"
@@ -774,7 +774,7 @@
       "variant": "a",
       "name": "Ween Dean",
       "other_name": null,
-      "raw": "cards/gpk/38_ween_dean.png",
+      "raw": "cards/gpk/38_ween_dean.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "music"
@@ -784,7 +784,7 @@
       "variant": "a",
       "name": "Mr. Bungle",
       "other_name": null,
-      "raw": "cards/gpk/39_mr_bungle.png",
+      "raw": "cards/gpk/39_mr_bungle.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "music"
@@ -794,7 +794,7 @@
       "variant": "a",
       "name": "Primus Pete",
       "other_name": null,
-      "raw": "cards/gpk/40_primus_pete.png",
+      "raw": "cards/gpk/40_primus_pete.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "music"
@@ -804,7 +804,7 @@
       "variant": "a",
       "name": "Frank Zappa",
       "other_name": null,
-      "raw": "cards/gpk/41_frank_zappa.png",
+      "raw": "cards/gpk/41_frank_zappa.webp",
       "framed": null,
       "status": "generated",
       "seriesId": "music"

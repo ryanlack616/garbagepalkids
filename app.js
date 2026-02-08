@@ -251,8 +251,9 @@
       const div = document.createElement('div');
       div.className = 'featured-card';
       const seriesName = getSeriesName(card.seriesId || 'sa');
+      const imgSrc = card.framed || card.raw;
       div.innerHTML = `
-        <img src="${card.raw}" alt="${card.name}" loading="lazy">
+        <img src="${imgSrc}" alt="${card.name}" loading="lazy">
         <div class="badge">#${card.number}</div>
         <div class="card-label">
           <h3>${card.name}</h3>
@@ -274,7 +275,8 @@
     withImages.forEach(card => {
       const div = document.createElement('div');
       div.className = 'hero-float-card';
-      div.innerHTML = `<img src="${card.raw}" alt="${card.name}">`;
+      const imgSrc = card.framed || card.raw;
+      div.innerHTML = `<img src="${imgSrc}" alt="${card.name}">`;
       heroCards.appendChild(div);
     });
   }

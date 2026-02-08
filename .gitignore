@@ -4,5 +4,6 @@ generator/
 deploy.py
 _quick_deploy.py
 ftp_deploy.ps1
+convert_webp.py
 __pycache__/
 *.pyc
