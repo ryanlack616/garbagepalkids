@@ -764,9 +764,9 @@
       "variant": "a",
       "name": "Wesley Willis",
       "other_name": null,
-      "raw": null,
+      "raw": "cards/gpk/37_wesley_willis.png",
       "framed": null,
-      "status": "pending",
+      "status": "generated",
       "seriesId": "music"
     },
     {
@@ -774,9 +774,9 @@
       "variant": "a",
       "name": "Ween Dean",
       "other_name": null,
-      "raw": null,
+      "raw": "cards/gpk/38_ween_dean.png",
       "framed": null,
-      "status": "pending",
+      "status": "generated",
       "seriesId": "music"
     },
     {
@@ -784,9 +784,9 @@
       "variant": "a",
       "name": "Mr. Bungle",
       "other_name": null,
-      "raw": null,
+      "raw": "cards/gpk/39_mr_bungle.png",
       "framed": null,
-      "status": "pending",
+      "status": "generated",
       "seriesId": "music"
     },
     {
@@ -794,9 +794,9 @@
       "variant": "a",
       "name": "Primus Pete",
       "other_name": null,
-      "raw": null,
+      "raw": "cards/gpk/40_primus_pete.png",
       "framed": null,
-      "status": "pending",
+      "status": "generated",
       "seriesId": "music"
     },
     {
@@ -804,9 +804,9 @@
       "variant": "a",
       "name": "Frank Zappa",
       "other_name": null,
-      "raw": null,
+      "raw": "cards/gpk/41_frank_zappa.png",
       "framed": null,
-      "status": "pending",
+      "status": "generated",
       "seriesId": "music"
     }
   ]
