@@ -1,30 +1,42 @@
-name: Deploy to GitHub Pages
+name: Deploy to rlv.lol
 
 on:
   push:
     branches: [main]
+    paths:
+      - 'index.html'
+      - 'app.js'
+      - 'style.css'
+      - '404.html'
+      - 'web/**'
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: deploy
+  cancel-in-progress: true
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+
+      # Assemble site into _site/ directory
+      - name: Build site directory
+        run: |
+          mkdir -p _site
+          cp index.html app.js style.css 404.html _site/
+          cp -r web/* _site/
+
+      # Deploy via FTP to /garbagepalkids/
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          path: .
-      - id: deployment
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          local-dir: ./_site/
+          server-dir: /garbagepalkids/
+          protocol: ftps
+          timeout: 120000
         uses: actions/deploy-pages@v4

@@ -242,7 +242,7 @@
         ${card.other_name ? `<span class="card-aka">a.k.a. "${card.other_name}"</span>` : ''}
         ${flipHtml}
       </div>
-      <div class="card-credit">${seriesName} &bull; Made by Ryan &amp; HoWell AI for Jessica</div>
+      <div class="card-credit">${seriesName}</div>
       ${card.description ? `<p class="card-desc">${card.description}</p>` : ''}`;
     div.appendChild(info);
 
