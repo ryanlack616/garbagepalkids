@@ -14,7 +14,10 @@
   let currentFilter = 'all';
   let currentSeries = 'all';
   let currentSort = 'number';
+  let currentSearch = '';
   let lightboxIndex = -1;
+  let currentPage = 1;
+  const CARDS_PER_PAGE = 12;
 
   // Collection prefix map (built from manifest)
   let prefixMap = {}; // seriesId → prefix
@@ -34,6 +37,7 @@
   const lightboxName = document.getElementById('lightbox-name');
   const lightboxAka = document.getElementById('lightbox-aka');
   const lightboxNumber = document.getElementById('lightbox-number');
+  const lightboxDesc = document.getElementById('lightbox-desc');
   const featuredGrid = document.getElementById('featured-grid');
   const heroCards = document.getElementById('hero-cards');
 
@@ -42,6 +46,12 @@
   const statGenerated = document.getElementById('stat-generated');
   const statFramed = document.getElementById('stat-framed');
   const statPending = document.getElementById('stat-pending');
+
+  // Search
+  const searchInput = document.getElementById('search-input');
+
+  // Random
+  const randomBtn = document.getElementById('random-btn');
 
   // ── Load Data ──
   async function loadManifest() {
@@ -102,6 +112,7 @@
         document.querySelectorAll('.series-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         currentSeries = col.id;
+        currentPage = 1;
         render();
       });
       seriesGroup.appendChild(btn);
@@ -112,6 +123,7 @@
       document.querySelectorAll('.series-btn').forEach(b => b.classList.remove('active'));
       e.target.classList.add('active');
       currentSeries = 'all';
+      currentPage = 1;
       render();
     });
   }
@@ -122,6 +134,16 @@
     let cards = allCards;
     if (currentSeries !== 'all') {
       cards = cards.filter(c => (c.seriesId || 'sa') === currentSeries);
+    }
+
+    // Apply search filter
+    if (currentSearch) {
+      const q = currentSearch.toLowerCase();
+      cards = cards.filter(c =>
+        c.name.toLowerCase().includes(q) ||
+        (c.other_name && c.other_name.toLowerCase().includes(q)) ||
+        (c.description && c.description.toLowerCase().includes(q))
+      );
     }
 
     // Apply image filter
@@ -141,25 +163,33 @@
       return a.number - b.number || (a.variant || '').localeCompare(b.variant || '');
     });
 
+    // Pagination
+    const totalPages = Math.ceil(filteredCards.length / CARDS_PER_PAGE);
+    if (currentPage > totalPages) currentPage = totalPages || 1;
+    const startIdx = (currentPage - 1) * CARDS_PER_PAGE;
+    const pageCards = filteredCards.slice(startIdx, startIdx + CARDS_PER_PAGE);
+
     // Clear gallery
     gallery.innerHTML = '';
 
     if (filteredCards.length === 0) {
       emptyState.hidden = false;
       gallery.style.display = 'none';
+      renderPagination(0);
     } else {
       emptyState.hidden = true;
       gallery.style.display = '';
 
-      filteredCards.forEach((card, index) => {
-        const el = createCardElement(card, index);
+      pageCards.forEach((card, index) => {
+        const el = createCardElement(card, startIdx + index);
         gallery.appendChild(el);
       });
+      renderPagination(totalPages);
     }
 
     // Count
     const imageCount = allCards.filter(c => c.raw || c.framed).length;
-    cardCount.textContent = `${filteredCards.length} card${filteredCards.length !== 1 ? 's' : ''}`;
+    cardCount.textContent = `${filteredCards.length} card${filteredCards.length !== 1 ? 's' : ''} · Page ${currentPage}/${totalPages || 1}`;
     if (heroCardCount) heroCardCount.textContent = allCards.length;
     if (heroImageCount) heroImageCount.textContent = imageCount;
 
@@ -200,14 +230,38 @@
     info.className = 'card-info';
     const label = getCardLabel(card);
     const seriesName = getSeriesName(seriesId);
+
+    // Check for A/B pair
+    const pairCard = findVariantPair(card);
+    const flipHtml = pairCard ? `<button class="flip-btn" title="Show ${pairCard.variant.toUpperCase()} variant">\u21C4 ${pairCard.name}</button>` : '';
+
     info.innerHTML = `
       <h3 class="card-name">${card.name}</h3>
       <div class="card-meta">
         <span class="card-number">${label}</span>
         ${card.other_name ? `<span class="card-aka">a.k.a. "${card.other_name}"</span>` : ''}
+        ${flipHtml}
       </div>
-      <div class="card-credit">${seriesName} &bull; Made by Ryan &amp; HoWell AI</div>`;
+      <div class="card-credit">${seriesName} &bull; Made by Ryan &amp; HoWell AI</div>
+      ${card.description ? `<p class="card-desc">${card.description}</p>` : ''}`;
     div.appendChild(info);
+
+    // Flip button handler
+    const flipBtn = info.querySelector('.flip-btn');
+    if (flipBtn && pairCard) {
+      flipBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const pairIdx = filteredCards.indexOf(pairCard);
+        if (pairIdx >= 0) openLightbox(pairIdx);
+        else {
+          // Card may be on another page — find in allCards
+          const globalIdx = allCards.indexOf(pairCard);
+          if (globalIdx >= 0) {
+            openLightboxDirect(pairCard);
+          }
+        }
+      });
+    }
 
     // Click handler
     if (imgSrc) {
@@ -289,11 +343,81 @@
     if (heroSeriesCount) heroSeriesCount.textContent = collections.length;
   }
 
-  // ── Lightbox ──
-  function openLightbox(index) {
-    const card = filteredCards[index];
-    if (!card) return;
+  // ── Variant Pair Lookup ──
+  function findVariantPair(card) {
+    if (!card.variant) return null;
+    const otherVariant = card.variant === 'a' ? 'b' : 'a';
+    return allCards.find(c =>
+      c.seriesId === card.seriesId &&
+      c.number === card.number &&
+      c.variant === otherVariant
+    ) || null;
+  }
 
+  // ── Pagination ──
+  function renderPagination(totalPages) {
+    let pag = document.getElementById('pagination');
+    if (!pag) {
+      pag = document.createElement('div');
+      pag.id = 'pagination';
+      pag.className = 'pagination';
+      gallery.parentNode.appendChild(pag);
+    }
+    pag.innerHTML = '';
+    if (totalPages <= 1) { pag.hidden = true; return; }
+    pag.hidden = false;
+
+    // Prev
+    const prev = document.createElement('button');
+    prev.className = 'page-btn' + (currentPage === 1 ? ' disabled' : '');
+    prev.textContent = '\u2039 Prev';
+    prev.disabled = currentPage === 1;
+    prev.addEventListener('click', () => { if (currentPage > 1) { currentPage--; render(); scrollToCollection(); } });
+    pag.appendChild(prev);
+
+    // Page numbers
+    const pages = buildPageNumbers(currentPage, totalPages);
+    pages.forEach(p => {
+      if (p === '...') {
+        const dots = document.createElement('span');
+        dots.className = 'page-dots';
+        dots.textContent = '...';
+        pag.appendChild(dots);
+      } else {
+        const btn = document.createElement('button');
+        btn.className = 'page-btn' + (p === currentPage ? ' active' : '');
+        btn.textContent = p;
+        btn.addEventListener('click', () => { currentPage = p; render(); scrollToCollection(); });
+        pag.appendChild(btn);
+      }
+    });
+
+    // Next
+    const next = document.createElement('button');
+    next.className = 'page-btn' + (currentPage === totalPages ? ' disabled' : '');
+    next.textContent = 'Next \u203A';
+    next.disabled = currentPage === totalPages;
+    next.addEventListener('click', () => { if (currentPage < totalPages) { currentPage++; render(); scrollToCollection(); } });
+    pag.appendChild(next);
+  }
+
+  function buildPageNumbers(current, total) {
+    if (total <= 7) return Array.from({length: total}, (_, i) => i + 1);
+    const pages = [1];
+    if (current > 3) pages.push('...');
+    for (let i = Math.max(2, current - 1); i <= Math.min(total - 1, current + 1); i++) pages.push(i);
+    if (current < total - 2) pages.push('...');
+    pages.push(total);
+    return pages;
+  }
+
+  function scrollToCollection() {
+    const el = document.getElementById('collection');
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // ── Lightbox ──
+  function showCardInLightbox(card, index) {
     lightboxIndex = index;
     lightboxImg.src = card.framed || card.raw;
     lightboxName.textContent = card.name;
@@ -301,14 +425,91 @@
     const label = getCardLabel(card);
     const seriesName = getSeriesName(card.seriesId || 'sa');
     lightboxNumber.textContent = `${label} • ${seriesName}`;
+    if (lightboxDesc) lightboxDesc.textContent = card.description || '';
+
+    // Download button
+    const dlBtn = document.getElementById('lightbox-download');
+    if (dlBtn) {
+      dlBtn.onclick = () => downloadCard(card);
+    }
+
+    // Flip button in lightbox
+    const lbFlip = document.getElementById('lightbox-flip');
+    const pair = findVariantPair(card);
+    if (lbFlip) {
+      if (pair && (pair.raw || pair.framed)) {
+        lbFlip.hidden = false;
+        lbFlip.textContent = `\u21C4 ${pair.name}`;
+        lbFlip.onclick = () => {
+          const pairIdx = filteredCards.indexOf(pair);
+          if (pairIdx >= 0) showCardInLightbox(pair, pairIdx);
+          else showCardInLightbox(pair, -1);
+          updateHash(pair);
+        };
+      } else {
+        lbFlip.hidden = true;
+      }
+    }
+
     lightbox.hidden = false;
     document.body.style.overflow = 'hidden';
+    updateHash(card);
+  }
+
+  function openLightbox(index) {
+    const card = filteredCards[index];
+    if (!card) return;
+    showCardInLightbox(card, index);
+  }
+
+  function openLightboxDirect(card) {
+    showCardInLightbox(card, -1);
   }
 
   function closeLightbox() {
     lightbox.hidden = true;
     document.body.style.overflow = '';
     lightboxIndex = -1;
+    history.replaceState(null, '', window.location.pathname);
+  }
+
+  // ── Download ──
+  function downloadCard(card) {
+    const src = card.framed || card.raw;
+    if (!src) return;
+    const a = document.createElement('a');
+    a.href = src;
+    a.download = getCardLabel(card) + '_' + card.name.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase();
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+
+  // ── Hash Routing ──
+  function updateHash(card) {
+    const label = getCardLabel(card);
+    history.replaceState(null, '', '#card/' + label);
+  }
+
+  function handleHashRoute() {
+    const hash = window.location.hash;
+    if (!hash.startsWith('#card/')) return false;
+    const cardLabel = hash.replace('#card/', '').toUpperCase();
+    // Parse label like SA-01A, PK-05A, etc.
+    const card = allCards.find(c => getCardLabel(c).toUpperCase() === cardLabel);
+    if (card && (card.raw || card.framed)) {
+      openLightboxDirect(card);
+      return true;
+    }
+    return false;
+  }
+
+  // ── Random Card ──
+  function pullRandomPack() {
+    const withImages = allCards.filter(c => c.raw || c.framed);
+    if (withImages.length === 0) return;
+    const card = withImages[Math.floor(Math.random() * withImages.length)];
+    openLightboxDirect(card);
   }
 
   function navLightbox(dir) {
@@ -328,18 +529,40 @@
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentFilter = btn.dataset.filter;
+      currentPage = 1;
       render();
     });
   });
 
   sortSelect.addEventListener('change', () => {
     currentSort = sortSelect.value;
+    currentPage = 1;
     render();
   });
 
   document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
   document.getElementById('lightbox-prev').addEventListener('click', () => navLightbox(-1));
   document.getElementById('lightbox-next').addEventListener('click', () => navLightbox(1));
+
+  // Search
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      currentSearch = searchInput.value.trim();
+      currentPage = 1;
+      render();
+    });
+  }
+
+  // Random
+  if (randomBtn) {
+    randomBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      pullRandomPack();
+    });
+  }
+
+  // Hash routing
+  window.addEventListener('hashchange', () => handleHashRoute());
 
   lightbox.addEventListener('click', e => {
     if (e.target === lightbox) closeLightbox();
@@ -372,6 +595,67 @@
     render();
     renderFeatured();
     renderHeroCards();
+    renderPipeline();
+
+    // Handle deep link
+    handleHashRoute();
+  }
+
+  // ── Pipeline / Behind the Scenes ──
+  function renderPipeline() {
+    const section = document.getElementById('pipeline-content');
+    if (!section) return;
+
+    const saCards = allCards.filter(c => c.seriesId === 'sa');
+    const otherCards = allCards.filter(c => c.seriesId !== 'sa');
+
+    section.innerHTML = `
+      <div class="pipeline-grid">
+        <div class="pipeline-card">
+          <div class="pipeline-icon">🧪</div>
+          <h3>Model</h3>
+          <p><strong>Flux Kontext Max</strong> by Black Forest Labs</p>
+          <p class="pipeline-detail">848×1184px (5:7) • 30 steps • CFG 2.2</p>
+        </div>
+        <div class="pipeline-card">
+          <div class="pipeline-icon">🎨</div>
+          <h3>Style Lock</h3>
+          <p>Painted grotesque trading-card artwork in the classic 1980s Garbage Pail Kids style. Cabbage Patch Kids doll face, airbrushed rendering, warm saturated palette.</p>
+        </div>
+        <div class="pipeline-card">
+          <div class="pipeline-icon">🚫</div>
+          <h3>Invariants</h3>
+          <ul>
+            <li>Single character only</li>
+            <li>No readable text anywhere</li>
+            <li>No realistic blood or injury</li>
+            <li>No weapons — gross-out only</li>
+            <li>Clean silhouette, portrait framing</li>
+          </ul>
+        </div>
+        <div class="pipeline-card">
+          <div class="pipeline-icon">🔧</div>
+          <h3>Pipeline</h3>
+          <ul>
+            <li><strong>SA series:</strong> 5-sentence prompts → Flux API → ComfyUI composite framing</li>
+            <li><strong>Other series:</strong> Character descriptions → Flux Kontext → raw art</li>
+            <li>8 candidates per card, best selected</li>
+          </ul>
+        </div>
+        <div class="pipeline-card">
+          <div class="pipeline-icon">📊</div>
+          <h3>Numbers</h3>
+          <p><strong>${allCards.length}</strong> cards defined across <strong>${collections.length}</strong> series</p>
+          <p><strong>${saCards.length}</strong> Suburban Apocalypse cards with A/B variants and composite frames</p>
+          <p><strong>${otherCards.length}</strong> cards across punk, GWAR, comedy, bonus, and music series</p>
+        </div>
+        <div class="pipeline-card">
+          <div class="pipeline-icon">🤖</div>
+          <h3>Built By</h3>
+          <p>Card concepts, prompts, and pipeline by <strong>Ryan</strong> &amp; <strong>Claude-Howell</strong> (AI collaborator). February 2026.</p>
+          <p class="pipeline-detail">Autonomous generation via Howell Daemon queue system</p>
+        </div>
+      </div>`;
   }
 
   init();

@@ -35,6 +35,7 @@
             <div class="nav-links">
                 <a href="#collection" class="nav-link">Collection</a>
                 <a href="#about" class="nav-link">About</a>
+                <a href="#pipeline" class="nav-link">Behind the Scenes</a>
                 <a href="#stats" class="nav-link">Stats</a>
             </div>
         </div>
@@ -54,6 +55,7 @@
             <div class="hero-actions">
                 <a href="#collection" class="btn btn-primary">View Collection</a>
                 <a href="#about" class="btn btn-outline">Learn More</a>
+                <button class="btn btn-random" id="random-btn">🎲 Pull a Card</button>
             </div>
             <div class="hero-stats">
                 <div class="hero-stat">
@@ -95,6 +97,9 @@
                 <h2 class="section-title">The <span class="accent">Collection</span></h2>
             </div>
             <div class="controls">
+                <div class="search-group">
+                    <input type="text" id="search-input" class="search-input" placeholder="Search cards..." autocomplete="off">
+                </div>
                 <div class="series-group" id="series-group">
                     <button class="series-btn active" data-series="all">All Series</button>
                     <!-- Series buttons injected by JS -->
@@ -153,6 +158,20 @@
         </div>
     </section>
 
+    <!-- ── PIPELINE / BEHIND THE SCENES ── -->
+    <section class="pipeline" id="pipeline">
+        <div class="section-inner">
+            <div class="section-header">
+                <p class="section-eyebrow">HOW IT'S MADE</p>
+                <h2 class="section-title">Behind the <span class="accent">Scenes</span></h2>
+                <p class="pipeline-intro">Every card starts as a 5-sentence prompt, gets rendered by Flux Kontext Max, and the best of 8 candidates is selected. The Suburban Apocalypse series gets composite card framing with titles, numbers, and A/B variant names.</p>
+            </div>
+            <div id="pipeline-content">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+    </section>
+
     <!-- ── STATS ── -->
     <section class="stats-section" id="stats">
         <div class="section-inner">
@@ -198,10 +217,16 @@ python batch.py --filter all</code></pre>
         <button class="lightbox-nav lightbox-next" id="lightbox-next">&#8250;</button>
         <div class="lightbox-content">
             <img id="lightbox-img" alt="">
+            <div class="lightbox-actions">
+                <button class="lightbox-action-btn" id="lightbox-flip" hidden>\u21C4 Flip</button>
+                <button class="lightbox-action-btn" id="lightbox-download">⤓ Download</button>
+                <button class="lightbox-action-btn" id="lightbox-share" onclick="navigator.clipboard.writeText(window.location.href).then(()=>{this.textContent='Copied!';setTimeout(()=>{this.textContent='\ud83d\udd17 Share'},1500)})">🔗 Share</button>
+            </div>
             <div class="lightbox-info" id="lightbox-info">
                 <h3 id="lightbox-name"></h3>
                 <p id="lightbox-aka"></p>
                 <p id="lightbox-number"></p>
+                <p id="lightbox-desc" class="lightbox-desc"></p>
             </div>
         </div>
     </div>
@@ -215,6 +240,7 @@ python batch.py --filter all</code></pre>
             <div class="footer-links">
                 <a href="#collection">Collection</a>
                 <a href="#about">About</a>
+                <a href="#pipeline">Behind the Scenes</a>
                 <a href="https://bfl.ai" target="_blank">Flux Kontext</a>
             </div>
             <p class="footer-copy">Feb 7th 2026 &bull; Made by Ryan &amp; HoWell AI &bull; rlv.lol</p>

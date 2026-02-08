@@ -47,7 +47,8 @@
       "raw": "cards/SA-01a_moldy-marty.webp",
       "framed": "cards/framed/SA-01a_moldy-marty_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A gross cartoon kid is stuck halfway inside the wall of a suburban house. His head and shoulders bulge out between crooked siding boards, arms bent and pinned. Thick puffy green mold blobs grow across his cheeks, neck, and forehead in rounded lumps. Small spore dots puff out of his open mouth and drift onto the wall around him. Colors emphasize slime green and pale sickly skin with warm painted rendering."
     },
     {
       "number": 1,
@@ -57,7 +58,8 @@
       "raw": "cards/SA-01b_sporey-cory.webp",
       "framed": "cards/framed/SA-01b_sporey-cory_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A swollen cartoon kid bulges out of the side of a suburban house like he grew there. His skin looks stretched and damp, eyes wide and empty, mouth slightly open. Huge fungus blobs stack on his head and shoulders, spreading onto the wall in thick patches. Clouds of tiny spore dots float around his face and cling to the siding. Colors emphasize yellow-green fungus, muted house tones, and soft airbrushed shading."
     },
     {
       "number": 2,
@@ -67,7 +69,8 @@
       "raw": "cards/SA-02a_sprinkler-spence.webp",
       "framed": "cards/framed/SA-02a_sprinkler-spence_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A bloated cartoon kid stands on a suburban lawn, puffed up like a water balloon. His arms hang heavy, eyes bulge, and his face is totally blank. Bright blue water pours from his mouth, nose, and ears in thick ribbon streams. Two small lawn sprinklers spray curved arcs of water behind his head. Colors emphasize cyan water, bright green grass, and soft airbrushed shading."
     },
     {
       "number": 2,
@@ -77,7 +80,8 @@
       "raw": "cards/SA-02b_drownin-devin.webp",
       "framed": "cards/framed/SA-02b_drownin-devin_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A soaked cartoon kid sinks into a muddy suburban lawn up to his ankles. His knees bend inward as he struggles to stay upright, cheeks puffed with water. Thin streams of blue water leak from cracks along his torso and arms. Sprinklers behind him keep spraying while mud grips his feet. Colors emphasize brown mud, blue water, and bright green lawn shapes."
     },
     {
       "number": 3,
@@ -87,7 +91,8 @@
       "raw": "cards/SA-03a_hoa-hank.webp",
       "framed": "cards/framed/SA-03a_hoa-hank_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A stiff cartoon kid stands like a neighborhood boss in front of identical houses. He holds a clipboard fused to his arm, smirking with half-closed eyes. Blocky rule marks are etched all over his skin like carved lines. Red stamp rectangles press into his chest and face like fresh approvals. Colors emphasize khaki, pale skin tones, and harsh red accents."
     },
     {
       "number": 3,
@@ -97,7 +102,8 @@
       "raw": "cards/SA-03b_fine-line-frank.webp",
       "framed": "cards/framed/SA-03b_fine-line-frank_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A skinny cartoon kid stands rigid with a measuring tape wrapped around his head. He smiles thinly, eyes sharp and judgmental. Fine rule lines cover his arms and legs like carved tally marks. Small red stamp icons dot his body where the lines cluster. Colors emphasize beige, pale skin tones, and aggressive red details."
     },
     {
       "number": 4,
@@ -107,7 +113,8 @@
       "raw": "cards/SA-04a_bbq-blake.webp",
       "framed": "cards/framed/SA-04a_bbq-blake_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid stands braced on a lawn as a grill blows up behind him. His mouth is open in shock, eyes wide and crooked. Flames burst upward in jagged shapes while one side of his body turns black and cracked. Hot dog and burger shapes fly through the air around him. Colors emphasize fire orange, char black, and bright green grass."
     },
     {
       "number": 4,
@@ -117,7 +124,8 @@
       "raw": "cards/SA-04b_charred-chad.webp",
       "framed": "cards/framed/SA-04b_charred-chad_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A soot-covered cartoon doll wobbles next to a smoky BBQ grill. His sunglasses sag down his face, grin frozen in surprise. Dark charcoal smudges and grey ash coat his arms and cheeks in messy patches. A warped grill sits nearby with a crooked lid and a burnt hot dog on a fork. Colors emphasize grey soot, orange grill glow, and warm painted rendering."
     },
     {
       "number": 5,
@@ -127,7 +135,8 @@
       "raw": "cards/SA-05a_mulch-mouth-mel.webp",
       "framed": "cards/framed/SA-05a_mulch-mouth-mel_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A kneeling cartoon kid leans over a garden bed with his jaw stretched wide. His eyes are excited and wild, mouth opened too far. Worms, leaves, and dirt spill from his mouth in chunky flat shapes. Green slime drips from his lips into the mulch pile. Colors emphasize earth brown, slime green, and soft airbrushed shading."
     },
     {
       "number": 5,
@@ -137,7 +146,8 @@
       "raw": "cards/SA-05b_compost-kyle.webp",
       "framed": "cards/framed/SA-05b_compost-kyle_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid stands smiling with his belly layered like compost. His eyes are calm and half-closed, arms relaxed. Dirt bands, roots, and worms stack across his torso in layered sections. Leaves and bug icons float loosely around his shoulders. Colors emphasize brown soil tones, plant green, and warm painted rendering."
     },
     {
       "number": 6,
@@ -147,7 +157,8 @@
       "raw": "cards/SA-06a_leaf-bag-lee.webp",
       "framed": "cards/framed/SA-06a_leaf-bag-lee_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll is tangled inside a huge pile of autumn leaves. Wet sticky leaves plaster all over his face, hair, and arms in thick layers. A rake leans against the pile and leaf fragments drift everywhere. His expression is startled, with wide eyes peeking through gaps in the leaves. Colors emphasize orange, yellow, red leaves, and warm painted rendering."
     },
     {
       "number": 6,
@@ -157,7 +168,8 @@
       "raw": "cards/SA-06b_rake-face-ray.webp",
       "framed": "cards/framed/SA-06b_rake-face-ray_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid faces forward with a rake pressed into his face. His mouth is a jagged scream, eyes wide and panicked. Blunt rake tines push into his skin, marked by red splatter shapes. Leaves cling to his cheeks and chin like decals. Colors emphasize hazard red, autumn tones, and soft airbrushed shading."
     },
     {
       "number": 7,
@@ -167,7 +179,8 @@
       "raw": "cards/SA-07a_detention-dan.webp",
       "framed": "cards/framed/SA-07a_detention-dan_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll melts slowly into a school desk from pure boredom. His body droops and sags over the desk like warm putty, oozing downward. Wood grain texture presses through his stretchy skin in wavy patterns. His eyes are droopy and half-closed with a dopey bored expression. Colors emphasize brown desk wood, pale doughy skin, and warm painted rendering."
     },
     {
       "number": 7,
@@ -177,7 +190,8 @@
       "raw": "cards/SA-07b_suspended-sid.webp",
       "framed": "cards/framed/SA-07b_suspended-sid_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid floats above the classroom floor. Stacks of paper wrap around his arms and legs, holding him up. Staples pin the papers tightly to his body in neat rows. His legs dangle limp and useless beneath him. Colors emphasize off-white paper, red stamp marks, and pale green walls."
     },
     {
       "number": 8,
@@ -187,7 +201,8 @@
       "raw": "cards/SA-08a_quiz-bleed-quinn.webp",
       "framed": "cards/framed/SA-08a_quiz-bleed-quinn_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll sits buried under a huge pile of messy test papers. Purple and blue ink splotches smear all over his face and hands. Crumpled answer sheets stick to his head and arms with wet ink. A snapped pencil pokes out of the pile next to his cheek. Colors emphasize white paper, purple ink splotches, and pale skin tones."
     },
     {
       "number": 8,
@@ -197,7 +212,8 @@
       "raw": "cards/SA-08b_test-press-tess.webp",
       "framed": "cards/framed/SA-08b_test-press-tess_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll peeks out from under a towering stack of test papers. Answer bubble imprints are stamped across her cheeks and forehead. Torn paper edges curl around her messy hair like a paper nest. Purple ink smudges streak across the desk and her arms. Colors emphasize off-white paper, purple ink, and soft airbrushed shading."
     },
     {
       "number": 9,
@@ -207,7 +223,8 @@
       "raw": "cards/SA-09a_locker-rot-rob.webp",
       "framed": "cards/framed/SA-09a_locker-rot-rob_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid crawls halfway out of a school locker. Black slime drips from the locker hinges onto his shoulders. His skin looks gray and rotten in flat patches. Books stand upright inside the locker like gravestones. Colors emphasize dull blue metal, black slime, and pale skin."
     },
     {
       "number": 9,
@@ -217,7 +234,8 @@
       "raw": "cards/SA-09b_coffin-case-carl.webp",
       "framed": "cards/framed/SA-09b_coffin-case-carl_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid is trapped inside a bulging locker. Only his head and hands squeeze out through bent seams. His cheeks are smashed flat, eyes glowing wide. Thick slime drips from his fingertips in rounded drops. Colors emphasize dark blue metal, neon slime, and warm painted rendering."
     },
     {
       "number": 10,
@@ -227,7 +245,8 @@
       "raw": "cards/SA-10a_hall-pass-pat.webp",
       "framed": "cards/framed/SA-10a_hall-pass-pat_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid runs in place down a school hallway. His knees lift high but he never moves forward. Hall passes are stapled all over his body, flapping outward. His mouth is open in a confused gasp. Colors emphasize pale walls, off-white paper, and red stamp accents."
     },
     {
       "number": 10,
@@ -237,7 +256,8 @@
       "raw": "cards/SA-10b_truancy-troy.webp",
       "framed": "cards/framed/SA-10b_truancy-troy_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid stands still as parts of his body disappear. Chunks of him fade into white blank space. Red stamp rectangles cover what remains of his torso. His face looks tired and empty. Colors emphasize pale greens, red stamps, and warm painted rendering."
     },
     {
       "number": 11,
@@ -247,7 +267,8 @@
       "raw": "cards/SA-11a_substitute-sue.webp",
       "framed": "cards/framed/SA-11a_substitute-sue_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon teacher smiles stiffly at the chalkboard. Parts of her arm and face crumble into chalk chunks. White chalk blocks fall at her feet in a small pile. Her eyes stay wide and friendly. Colors emphasize chalk white, pale green walls, and soft airbrushed shading."
     },
     {
       "number": 11,
@@ -257,7 +278,8 @@
       "raw": "cards/SA-11b_long-term-lorrie.webp",
       "framed": "cards/framed/SA-11b_long-term-lorrie_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon teacher is fused into the classroom wall and floor. Her legs melt into the tiles beneath her. One arm disappears into the chalkboard holding chalk. Her face droops with exhaustion. Colors emphasize dull greens, off-white walls, and warm painted rendering."
     },
     {
       "number": 12,
@@ -267,7 +289,8 @@
       "raw": "cards/SA-12a_guidance-gail.webp",
       "framed": "cards/framed/SA-12a_guidance-gail_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon counselor smiles behind a desk. She feeds papers into a big shredder. The shredder spits out long curled strips and dark shapes. Paper piles grow at her feet like a drift. Colors emphasize bright office colors and soft airbrushed shading."
     },
     {
       "number": 12,
@@ -277,7 +300,8 @@
       "raw": "cards/SA-12b_career-path-pam.webp",
       "framed": "cards/framed/SA-12b_career-path-pam_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon counselor holds a huge flowchart. Arrows pin small kid silhouettes on the chart like pushpins. She points proudly while smiling. Broken arrow pieces scatter on the floor. Colors emphasize bright arrows, white charts, and black silhouettes."
     },
     {
       "number": 13,
@@ -287,7 +311,8 @@
       "raw": "cards/SA-13a_officer-ooze.webp",
       "framed": "cards/framed/SA-13a_officer-ooze_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll stands stiff in a melting oversized uniform. The soggy uniform sags and drips thick green slime from every fold. Green ooze seeps from his collar, sleeves, and pockets in heavy globs. A shiny badge droops sideways on his chest, half-covered in goo. Colors emphasize dark blue fabric, slime green, and heavy shadows."
     },
     {
       "number": 13,
@@ -297,7 +322,8 @@
       "raw": "cards/SA-13b_badge-melt-brent.webp",
       "framed": "cards/framed/SA-13b_badge-melt-brent_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon cop is locked solid in fused armor. His arms cannot bend at all, elbows stuck straight. Slime trails down his legs in thick drips. His jaw is clenched tight behind the visor shape. Colors emphasize navy blue, neon green slime, and warm painted rendering."
     },
     {
       "number": 14,
@@ -307,7 +333,8 @@
       "raw": "cards/SA-14a_mayor-rot.webp",
       "framed": "cards/framed/SA-14a_mayor-rot_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon mayor stands smiling behind a podium. Half his face peels away to bone and teeth shapes. Confetti sticks to both sides of his head like dots. Microphones crowd his mouth in a tight cluster. Colors emphasize red, blue, sickly green, and bone white."
     },
     {
       "number": 14,
@@ -317,7 +344,8 @@
       "raw": "cards/SA-14b_campaign-cain.webp",
       "framed": "cards/framed/SA-14b_campaign-cain_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll in an oversized suit leans forward with arms wide open. His torso deflates inward like a crumpling balloon, suit collapsing. Wrinkled fabric folds inward where his chest should puff out. Microphones crowd around him from all sides on wobbly stands. Colors emphasize campaign red, navy suit, and deep painted shadows."
     },
     {
       "number": 15,
@@ -327,7 +355,8 @@
       "raw": "cards/SA-15a_judge-sludge.webp",
       "framed": "cards/framed/SA-15a_judge-sludge_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon judge slumps behind the bench. A giant gavel presses through his head like a stuck tool. His robe melts into thick sludge over the desk. Papers float in the goo as flat rectangles. Colors emphasize black, purple, and brown sludge tones."
     },
     {
       "number": 15,
@@ -337,7 +366,8 @@
       "raw": "cards/SA-15b_verdict-vern.webp",
       "framed": "cards/framed/SA-15b_verdict-vern_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon judge sinks deeper into robe sludge. Only his tired face peeks out, eyes half shut. The gavel glows faintly above him. The bench sags under the weight of the goo. Colors emphasize dark shadows and dull highlights."
     },
     {
       "number": 16,
@@ -347,7 +377,8 @@
       "raw": "cards/SA-16a_principal-punx.webp",
       "framed": "cards/framed/SA-16a_principal-punx_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon principal stands rigid in a hallway. His mouth is sealed shut with duct tape strips. A huge rulebook is nailed to his chest like a sign. His eyes burn with anger. Colors emphasize gray tape, brown book, and red nail heads."
     },
     {
       "number": 16,
@@ -357,7 +388,8 @@
       "raw": "cards/SA-16b_zero-tolerance-zed.webp",
       "framed": "cards/framed/SA-16b_zero-tolerance-zed_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll stands perfectly straight wrapped in layers of paper. Rule pages are pasted and taped around his body like papier-mache armor. Bright red stamp marks cover every visible sheet in thick blocks. His face peers out from the paper wrapping with a blank stare. Colors emphasize white paper, red stamps, and pale institution walls."
     },
     {
       "number": 17,
@@ -367,7 +399,8 @@
       "raw": "cards/SA-17a_crossing-guard-greg.webp",
       "framed": "cards/framed/SA-17a_crossing-guard-greg_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid lies flattened on the street. His safety vest stretches wide across his body like a sticker. Cars rush past on both sides as blocky shapes. A bent stop sign leans toward him. Colors emphasize neon yellow, asphalt gray, and hazard red."
     },
     {
       "number": 17,
@@ -377,7 +410,8 @@
       "raw": "cards/SA-17b_traffic-tarp-tom.webp",
       "framed": "cards/framed/SA-17b_traffic-tarp-tom_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid is stretched long across the road. An orange tarp drags over his body in big folds. One hand reaches forward, flattened like a paddle. Lane lines run beneath him in stark stripes. Colors emphasize hazard orange and bright white markings."
     },
     {
       "number": 18,
@@ -387,7 +421,8 @@
       "raw": null,
       "framed": "cards/framed/SA-18a_watchdog-walt_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll stands under a streetlight at night wearing odd gadgets. Chunky camera gadgets are strapped to his head like bulky goggles. Small glowing screens are stuck across his shirt with flickering static. Thick cables tangle around his feet and trail along the ground. Colors emphasize dark blue night tones and neon green glow."
     },
     {
       "number": 18,
@@ -397,7 +432,8 @@
       "raw": null,
       "framed": "cards/framed/SA-18b_neighborhood-ned_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid is covered head to toe in cameras. Screens flicker across his body in bright rectangles. Thick cables wrap around his legs and trail into the street. Identical houses sit silently behind him as simple shapes. Colors emphasize black, green glow, and soft airbrushed shading."
     },
     {
       "number": 1,
@@ -407,7 +443,8 @@
       "raw": "cards/gpk/01_mohawk_mike.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "punk"
+      "seriesId": "punk",
+      "description": "A sneering cartoon punk kid with a towering green mohawk that scrapes the ceiling. Safety pins pierce his ears and nose in thick clusters. His leather jacket drips with studs and patches. Spit flies from his snarling mouth."
     },
     {
       "number": 2,
@@ -417,7 +454,8 @@
       "raw": "cards/gpk/02_thrash_travis.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "punk"
+      "seriesId": "punk",
+      "description": "A thrashing cartoon kid windmills his arms in a circle pit. His torn shirt flaps in shreds around his torso. Sweat and spit spray outward in wild arcs. The floor cracks beneath his stomping boots."
     },
     {
       "number": 3,
@@ -427,7 +465,8 @@
       "raw": "cards/gpk/03_studded_steve.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "punk"
+      "seriesId": "punk",
+      "description": "A cartoon kid is covered head to toe in metal studs. They poke through his jacket, belt, boots, and even his skin. Each stud gleams under harsh stage lighting. His eyes are hidden behind a wall of spikes."
     },
     {
       "number": 4,
@@ -437,7 +476,8 @@
       "raw": "cards/gpk/04_fiend_fred.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "punk"
+      "seriesId": "punk",
+      "description": "A cartoon kid in a Misfits-style skull face howls into the night. Black and white paint streaks down his face in jagged lines. His devilock hair hangs past his nose. Bats circle his head like a halo."
     },
     {
       "number": 5,
@@ -447,7 +487,8 @@
       "raw": "cards/gpk/05_jello_jake.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "punk"
+      "seriesId": "punk",
+      "description": "A cartoon kid writhes on stage covered in green gelatin. The jello wobbles and sloshes with every move. His mouth is open in a political rant nobody can hear. Letters and symbols float in the gelatin."
     },
     {
       "number": 6,
@@ -457,7 +498,8 @@
       "raw": "cards/gpk/06_amplifier_andy.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "punk"
+      "seriesId": "punk",
+      "description": "A cartoon kid is fused into a massive guitar amplifier stack. Cables wrap around his body like vines. Sound waves blast outward in visible ripples. His ears bleed musical notes."
     },
     {
       "number": 7,
@@ -467,7 +509,8 @@
       "raw": "cards/gpk/07_stage_dive_dan.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "punk"
+      "seriesId": "punk",
+      "description": "A cartoon kid launches off the stage into empty air. The crowd below is a sea of raised fists. His body is horizontal, arms spread wide. The stage crumbles behind him from the impact."
     },
     {
       "number": 8,
@@ -477,7 +520,8 @@
       "raw": "cards/gpk/08_mohican_mark.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "punk"
+      "seriesId": "punk",
+      "description": "A cartoon kid with a towering mohican haircut that defies gravity. The hair is dyed in stripes of neon colors. Egg whites and glue drip from the spikes. His neck strains under the weight."
     },
     {
       "number": 9,
@@ -487,7 +531,8 @@
       "raw": "cards/gpk/09_danzig_danny.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "punk"
+      "seriesId": "punk",
+      "description": "A hulking cartoon kid flexes in a dark basement. His muscles bulge through a torn black tank top. A skull medallion hangs from his thick neck. His eyes glow red in the shadows."
     },
     {
       "number": 10,
@@ -497,7 +542,8 @@
       "raw": "cards/gpk/10_rancid_randy.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "punk"
+      "seriesId": "punk",
+      "description": "A cartoon kid decomposes while still standing upright. Green patches of rot spread across his skin. Mohawk spikes droop sideways from the decay. He grins through missing teeth."
     },
     {
       "number": 11,
@@ -507,7 +553,8 @@
       "raw": "cards/gpk/11_slam_dance_sam.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "punk"
+      "seriesId": "punk",
+      "description": "A cartoon kid slams into other invisible bodies in a mosh pit. His limbs fly at impossible angles. Bruises and boot prints cover his face. Stars and birds circle his dented head."
     },
     {
       "number": 12,
@@ -517,7 +564,8 @@
       "raw": "cards/gpk/12_oderus_icky.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "gwar"
+      "seriesId": "gwar",
+      "description": "A monstrous cartoon alien warrior in spiked battle armor towers over a ruined stage. Green slime drips from massive shoulder pads. A horned helmet frames glowing red eyes. Fake blood sprays in every direction."
     },
     {
       "number": 13,
@@ -527,7 +575,8 @@
       "raw": "cards/gpk/13_splatter_sam.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "gwar"
+      "seriesId": "gwar",
+      "description": "A cartoon alien berserker swings a foam battle axe through a fountain of fake blood. Colored liquid sprays in thick arcs across the stage. His armor is caked in layers of dried goo. War paint streaks his snarling face."
     },
     {
       "number": 14,
@@ -537,7 +586,8 @@
       "raw": "cards/gpk/14_balsac_bobby.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "gwar"
+      "seriesId": "gwar",
+      "description": "A cartoon alien gladiator with a giant metal jaw prosthetic charges forward. His armor is made of welded scrap metal and bones. Sparks fly from dragging weapons. One eye gleams through a battered visor."
     },
     {
       "number": 15,
@@ -547,7 +597,8 @@
       "raw": "cards/gpk/15_sleazy_steve.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "gwar"
+      "seriesId": "gwar",
+      "description": "A sleazy cartoon alien lounges on a throne of broken guitars. His costume oozes with metallic slime. Sunglasses sit crooked on his reptilian face. Empty bottles and debris litter the floor."
     },
     {
       "number": 16,
@@ -557,7 +608,8 @@
       "raw": "cards/gpk/16_flattus_freddy.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "gwar"
+      "seriesId": "gwar",
+      "description": "A ghostly cartoon alien floats above the stage in tattered robes. His guitar shoots lightning bolts into the crowd. A pale mask covers features that shift and blur. Smoke billows from beneath his hovering form."
     },
     {
       "number": 17,
@@ -567,7 +619,8 @@
       "raw": "cards/gpk/17_jizmak_jake.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "gwar"
+      "seriesId": "gwar",
+      "description": "A massive cartoon alien drummer pounds on skulls arranged as a drum kit. His four arms blur with speed. Drumsticks shatter on impact and regrow instantly. Thunder rumbles with every hit."
     },
     {
       "number": 18,
@@ -577,7 +630,8 @@
       "raw": "cards/gpk/18_vulvatron_vicky.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "gwar"
+      "seriesId": "gwar",
+      "description": "A fierce cartoon alien warrior queen stands in chrome battle armor. Metallic paint drips from her spiked shoulder plates. Her visor reflects flames from the stage. Electricity arcs between her gauntlets."
     },
     {
       "number": 19,
@@ -587,7 +641,8 @@
       "raw": "cards/gpk/19_bonesnapper_brad.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "gwar"
+      "seriesId": "gwar",
+      "description": "A skeletal cartoon alien in bone armor snaps at the air with massive jaws. His spine extends into a whipping tail. Cracked bones jut from his shoulders like spikes. Dust and fragments fall from every movement."
     },
     {
       "number": 20,
@@ -597,7 +652,8 @@
       "raw": "cards/gpk/20_pustulus_paul.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "gwar"
+      "seriesId": "gwar",
+      "description": "A pustule-covered cartoon alien oozes from every pore on stage. Boils and blisters pop in slow motion. Toxic green liquid pools at his feet. His guitar dissolves where his hands grip it."
     },
     {
       "number": 21,
@@ -607,7 +663,8 @@
       "raw": "cards/gpk/21_slymenstra_hymen.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "gwar"
+      "seriesId": "gwar",
+      "description": "A towering cartoon alien dominatrix cracks a whip made of guitar strings. Her elaborate headdress scrapes the rafters. Fake blood drips from ornate shoulder armor. The crowd cowers beneath her shadow."
     },
     {
       "number": 22,
@@ -617,7 +674,8 @@
       "raw": "cards/gpk/22_costume_carnage_carl.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "gwar"
+      "seriesId": "gwar",
+      "description": "A cartoon alien warrior destroys his own elaborate costume mid-performance. Pieces of foam armor fly into the crowd. Underneath is another even more grotesque costume. Props and latex scatter across the stage."
     },
     {
       "number": 23,
@@ -627,7 +685,8 @@
       "raw": "cards/gpk/23_mel_brooks.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "comedians"
+      "seriesId": "comedians",
+      "description": "A cartoon Mel Brooks conducts chaos from a director's chair. Film reels unravel around him in wild spirals. A megaphone sprouts from his face like a horn. Movie clapboards snap in midair around his head."
     },
     {
       "number": 24,
@@ -637,7 +696,8 @@
       "raw": "cards/gpk/24_rodney_dangerfield.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "comedians"
+      "seriesId": "comedians",
+      "description": "A cartoon Rodney Dangerfield tugs at his collar while sweat geysers upward. His bulging eyes pop from their sockets on springs. His red necktie is tied so tight it squeezes his head like a balloon."
     },
     {
       "number": 25,
@@ -647,7 +707,8 @@
       "raw": "cards/gpk/25_woody_allen.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "comedians"
+      "seriesId": "comedians",
+      "description": "A nervous cartoon Woody Allen hides behind enormous black-rimmed glasses. The glasses are so thick they magnify his eyes to dinner-plate size. A therapy couch grows out of his back. New York City skyline wraps around him like a scarf."
     },
     {
       "number": 26,
@@ -657,7 +718,8 @@
       "raw": "cards/gpk/26_dom_deluise.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "comedians"
+      "seriesId": "comedians",
+      "description": "A jolly cartoon Dom DeLuise bursts through a kitchen wall holding a giant turkey leg. His chef hat is three feet tall and wobbling. Food debris orbits his round body like satellites. His laugh shakes the walls."
     },
     {
       "number": 27,
@@ -667,7 +729,8 @@
       "raw": "cards/gpk/27_gene_wilder.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "comedians"
+      "seriesId": "comedians",
+      "description": "A wild-eyed cartoon Gene Wilder with electrified curly hair that sparks and crackles. His purple velvet jacket morphs into Wonka's coat. One eye twitches while the other stays eerily calm. Chocolate rivers flow from his pockets."
     },
     {
       "number": 28,
@@ -677,7 +740,8 @@
       "raw": "cards/gpk/28_george_carlin.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "comedians"
+      "seriesId": "comedians",
+      "description": "A cartoon George Carlin stands at a podium that is on fire. His ponytail whips around like an angry snake. Seven forbidden word bubbles float above his head in neon. His Hawaiian shirt patterns are actually tiny protest signs."
     },
     {
       "number": 29,
@@ -687,7 +751,8 @@
       "raw": "cards/gpk/29_john_candy.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "comedians"
+      "seriesId": "comedians",
+      "description": "A massive cartoon John Candy splits into three characters at once. One third is a polka musician, another a shower curtain ring salesman, the last a Canadian mountie. Maple syrup drips from all three versions."
     },
     {
       "number": 30,
@@ -697,7 +762,8 @@
       "raw": "cards/gpk/30_andy_kaufman.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "comedians"
+      "seriesId": "comedians",
+      "description": "A cartoon Andy Kaufman wrestles with his own reflection. One version wears a tuxedo, the other a tracksuit. Neither can tell which is the real one. A bongo drum plays itself in the corner."
     },
     {
       "number": 31,
@@ -707,7 +773,8 @@
       "raw": "cards/gpk/31_monty_python.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "bonus"
+      "seriesId": "bonus",
+      "description": "A cartoon five-headed comedy hydra in medieval armor. Each head is a different Python member arguing with the others. A coconut horse prances nearby. The Holy Hand Grenade glows in the foreground."
     },
     {
       "number": 32,
@@ -717,7 +784,8 @@
       "raw": "cards/gpk/32_kids_in_the_hall.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "bonus"
+      "seriesId": "bonus",
+      "description": "Five cartoon heads peek out from behind a single office desk. Each face shows a different extreme emotion. Wigs and costume pieces fly between them. A Head Crusher hand looms in the background."
     },
     {
       "number": 33,
@@ -727,7 +795,8 @@
       "raw": "cards/gpk/33_misfits_mike.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "music"
+      "seriesId": "music",
+      "description": "A cartoon Jerry Only with his massive devilock hair sweeping the floor. His skull-painted bass guitar drips ectoplasm. Bats nest in his towering hair. His platform boots crack the stage beneath him."
     },
     {
       "number": 34,
@@ -737,7 +806,8 @@
       "raw": "cards/gpk/34_dead_kennedys.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "music"
+      "seriesId": "music",
+      "description": "A cartoon Jello Biafra melts into a pool of political pamphlets. His mouth is a megaphone that never stops. Campaign buttons cover his dissolving body. Police badges orbit his head like angry satellites."
     },
     {
       "number": 35,
@@ -747,7 +817,8 @@
       "raw": "cards/gpk/35_dead_milkmen.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "music"
+      "seriesId": "music",
+      "description": "A cartoon Dead Milkmen kid rides a giant mutant cow through a suburban wasteland. The cow has three heads and rocket exhaust. Cheap synthesizer keys grow from the fingers. Bituminous coal dust covers everything."
     },
     {
       "number": 36,
@@ -757,7 +828,8 @@
       "raw": "cards/gpk/36_devo_danny.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "music"
+      "seriesId": "music",
+      "description": "A cartoon Devo kid in a red energy dome hat that is actually a working machine. Wires connect the hat to his jerking limbs. His movements are perfectly robotic and angular. Whip marks from de-evolution cover the walls."
     },
     {
       "number": 37,
@@ -767,7 +839,8 @@
       "raw": "cards/gpk/37_wesley_willis.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "music"
+      "seriesId": "music",
+      "description": "A cartoon Wesley Willis headbutts a brick wall with joy. His forehead has a permanent greeting bruise. A Casio keyboard is fused to his massive hands. Chicago city buses circle his head like a crown."
     },
     {
       "number": 38,
@@ -777,7 +850,8 @@
       "raw": "cards/gpk/38_ween_dean.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "music"
+      "seriesId": "music",
+      "description": "A cartoon Dean and Gene Ween merge into one two-headed brown creature. One head grins, the other grimaces. Their shared body wears a cape made of Boognish eyes. Scotchguard cans litter the floor."
     },
     {
       "number": 39,
@@ -787,7 +861,8 @@
       "raw": "cards/gpk/39_mr_bungle.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "music"
+      "seriesId": "music",
+      "description": "A cartoon Mr. Bungle kid in a ski mask juggles between genres. His body splits into jazz, metal, and carnival segments. Clown makeup bleeds through the mask. Saxophones and guitars orbit chaotically."
     },
     {
       "number": 40,
@@ -797,7 +872,8 @@
       "raw": "cards/gpk/40_primus_pete.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "music"
+      "seriesId": "music",
+      "description": "A cartoon Les Claypool slaps a bass guitar made of a giant fish. His eyes spin in different directions behind tiny glasses. A pig mask hangs from his belt. The bass strings are actually fishing lines."
     },
     {
       "number": 41,
@@ -807,7 +883,8 @@
       "raw": "cards/gpk/41_frank_zappa.webp",
       "framed": null,
       "status": "generated",
-      "seriesId": "music"
+      "seriesId": "music",
+      "description": "A cartoon Frank Zappa conducts an orchestra of mutant vegetables. His mustache extends into two conducting batons. Sheet music covered in impossible time signatures swirls around him. A toilet floats behind him playing a solo."
     }
   ]
 }
