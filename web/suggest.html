@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggest a Card — GarbagePal Kids</title>
+    <meta name="description" content="Browse and vote on 500+ card suggestions for GarbagePal Kids. Pick your favorites across 11 series — from Suburban Apocalypse to Cabbage Patch Rejects.">
+    <meta property="og:title" content="Suggest a Card — GarbagePal Kids">
+    <meta property="og:description" content="500 card concepts across 11 series. Browse, filter, and pick your favorites.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rlv.lol/garbagepalkids/suggest.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗳️</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="suggest.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script></head>
+<body>
+
+    <!-- ── NAV ── -->
+    <nav class="top-nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-gpk">Garbage Pal Kids</span>
+                <span class="logo-divider">:</span>
+                <span class="logo-sa">Trading Cards</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Collection</a>
+                <a href="suggest.html" class="nav-link active">Suggestions</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section class="suggest-hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">COMMUNITY PICKS</p>
+            <h1 class="hero-title">
+                <span class="hero-line1">SUGGEST</span>
+                <span class="hero-line2">A CARD</span>
+            </h1>
+            <p class="hero-desc">500 card concepts across 11 series. Browse, filter, and heart your favorites — top picks get made into real cards.</p>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="stat-num" id="hero-total">0</span>
+                    <span class="stat-label">Suggestions</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-num" id="hero-series">0</span>
+                    <span class="stat-label">Series</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-num" id="hero-faves">0</span>
+                    <span class="stat-label">Your Picks</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CONTROLS ── -->
+    <section class="controls-bar" id="controls">
+        <div class="controls-inner">
+            <div class="controls-row">
+                <div class="search-group">
+                    <input type="text" id="search-input" class="search-input" placeholder="Search suggestions..." autocomplete="off">
+                </div>
+                <div class="filter-pills">
+                    <button class="pill active" data-filter="all">All</button>
+                    <button class="pill" data-filter="favorites">♥ My Picks</button>
+                    <button class="pill" data-filter="safe">Safe</button>
+                    <button class="pill" data-filter="spicy">🌶️ Spicy</button>
+                </div>
+                <div class="sort-group">
+                    <label>Sort:</label>
+                    <select id="sort-select">
+                        <option value="series">By Series</option>
+                        <option value="title">A–Z</option>
+                        <option value="votes">🔥 Top Voted</option>
+                        <option value="favorites-first">♥ First</option>
+                    </select>
+                </div>
+                <span class="result-count" id="result-count"></span>
+            </div>
+            <div class="series-nav" id="series-nav">
+                <button class="series-chip active" data-series="all">All Series</button>
+                <!-- Filled by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ── SUGGESTION GRID ── -->
+    <section class="suggestions-section">
+        <div class="section-inner">
+            <div class="suggestion-grid" id="suggestion-grid">
+                <div class="loading" id="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Loading suggestions...</p>
+                </div>
+            </div>
+            <div class="pagination" id="pagination"></div>
+        </div>
+    </section>
+
+    <!-- ── SERIES INFO (expandable) ── -->
+    <section class="series-info-section" id="series-info">
+        <div class="section-inner">
+            <div class="section-header">
+                <p class="section-eyebrow">THE SERIES</p>
+                <h2 class="section-title">11 <span class="accent">Collections</span></h2>
+            </div>
+            <div class="series-grid" id="series-grid">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ── YOUR PICKS EXPORT ── -->
+    <section class="export-section" id="export-section" hidden>
+        <div class="section-inner">
+            <div class="export-card">
+                <h3>Your Picks</h3>
+                <p id="export-summary">You haven't picked any favorites yet.</p>
+                <div class="export-actions">
+                    <button class="btn btn-primary" id="copy-picks-btn">📋 Copy List</button>
+                    <button class="btn btn-outline" id="clear-picks-btn">Clear All</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="logo-gpk">Garbage Pal Kids</span><span class="logo-divider">:</span><span class="logo-sa">Trading Cards</span>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Collection</a>
+                <a href="suggest.html">Suggestions</a>
+                <a href="https://bfl.ai" target="_blank">Flux Kontext</a>
+            </div>
+            <p class="footer-copy">Started Feb 7th 2026 &bull; Made by Ryan &amp; HoWell AI for Jessica &bull; rlv.lol</p>
+        </div>
+    </footer>
+
+    <script src="suggest.js"></script>
+</body>
+</html>

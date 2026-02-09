@@ -1,5 +1,5 @@
 """
-Resilient FTP Deploy — upload web/ contents to rlv.lol/garbagepalkids/
+Resilient FTP Deploy — upload web/ contents to garbagepalkids.lol
 Skips files that already exist with the same size.
 Reconnects on connection drops.
 """
@@ -61,7 +61,7 @@ def ensure_dir(ftp, path):
 
 def deploy():
     env = load_env()
-    remote_dir = '/garbagepalkids'
+    remote_dir = '/'
     web_dir = Path(__file__).resolve().parent / 'web'
 
     if not web_dir.exists():
@@ -143,7 +143,7 @@ def deploy():
             pass
 
     print(f'\nDone! Uploaded: {uploaded}, Skipped (same size): {skipped}')
-    print(f'Live at: https://rlv.lol/garbagepalkids/')
+    print(f'Live at: https://garbagepalkids.lol/')
 
 
 if __name__ == '__main__':

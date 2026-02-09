@@ -1,4 +1,4 @@
-name: Deploy to rlv.lol
+name: Deploy to garbagepalkids.lol
 
 on:
   push:
@@ -36,6 +36,6 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: ./_site/
-          server-dir: /garbagepalkids/
+          server-dir: /
           protocol: ftps
           timeout: 120000

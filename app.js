@@ -243,8 +243,18 @@
         ${flipHtml}
       </div>
       <div class="card-credit">${seriesName}</div>
-      ${card.description ? `<p class="card-desc">${card.description}</p>` : ''}`;
+      ${card.description ? `<div class="card-prompt"><button class="prompt-toggle" title="Show AI prompt">🤖 Prompt</button><p class="card-desc">${card.description}</p></div>` : ''}`;
     div.appendChild(info);
+
+    // Prompt toggle handler
+    const promptToggle = info.querySelector('.prompt-toggle');
+    if (promptToggle) {
+      promptToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const wrap = promptToggle.closest('.card-prompt');
+        wrap.classList.toggle('open');
+      });
+    }
 
     // Flip button handler
     const flipBtn = info.querySelector('.flip-btn');
@@ -425,7 +435,15 @@
     const label = getCardLabel(card);
     const seriesName = getSeriesName(card.seriesId || 'sa');
     lightboxNumber.textContent = `${label} • ${seriesName}`;
-    if (lightboxDesc) lightboxDesc.textContent = card.description || '';
+    if (lightboxDesc) {
+      if (card.description) {
+        lightboxDesc.innerHTML = '<span class="prompt-label">🤖 Prompt</span>' + card.description;
+        lightboxDesc.style.display = '';
+      } else {
+        lightboxDesc.innerHTML = '';
+        lightboxDesc.style.display = 'none';
+      }
+    }
 
     // Download button
     const dlBtn = document.getElementById('lightbox-download');

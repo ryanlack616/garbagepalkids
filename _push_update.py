@@ -19,8 +19,8 @@ for fname in ['index.html', 'app.js']:
     local = Path(fname)
     print(f'  uploading {fname} ({local.stat().st_size:,} bytes)...')
     with open(local, 'rb') as f:
-        ftp.storbinary(f'STOR /garbagepalkids/{fname}', f)
+        ftp.storbinary(f'STOR /{fname}', f)
     print(f'  done: {fname}')
 
 ftp.quit()
-print('Updated at https://rlv.lol/garbagepalkids/')
+print('Updated at https://garbagepalkids.lol/')

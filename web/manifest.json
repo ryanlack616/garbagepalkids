@@ -1,35 +1,107 @@
 {
-  "generated": "2026-02-08 11:58:49",
+  "generated": "2026-02-07",
   "collections": [
     {
       "id": "sa",
       "name": "Suburban Apocalypse",
       "prefix": "SA",
-      "count": 36
+      "description": "Suburban nightmares rendered in GPK cartoon style"
     },
     {
       "id": "punk",
-      "name": "Punk Legends",
+      "name": "Punk",
       "prefix": "PK",
-      "count": 11
+      "description": "Punk rock originals"
     },
     {
       "id": "gwar",
-      "name": "GWAR Warriors",
+      "name": "GWAR",
       "prefix": "GW",
-      "count": 11
+      "description": "Intergalactic shock-rock warriors"
     },
     {
-      "id": "comedy",
-      "name": "Comedy Icons",
-      "prefix": "CI",
-      "count": 10
+      "id": "comedians",
+      "name": "Comedians",
+      "prefix": "CM",
+      "description": "Comedy legends, GPK style"
+    },
+    {
+      "id": "bonus",
+      "name": "Bonus",
+      "prefix": "BN",
+      "description": "Bonus comedy troupe cards"
     },
     {
       "id": "music",
-      "name": "Musical Misfits",
+      "name": "Music",
+      "prefix": "MU",
+      "description": "Musical misfits and weirdos"
+    },
+    {
+      "id": "suburban-apocalypse",
+      "name": "Suburban Apocalypse",
+      "prefix": "SA2",
+      "description": "Neighborhood nightmare cards"
+    },
+    {
+      "id": "influencer",
+      "name": "Influencer Wasteland",
+      "prefix": "IW",
+      "description": "Clout-chasing social media horrors"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok Terrors",
+      "prefix": "TT",
+      "description": "Viral video body horror"
+    },
+    {
+      "id": "reality",
+      "name": "Reality Ruination",
+      "prefix": "RR",
+      "description": "Reality TV meltdowns"
+    },
+    {
+      "id": "hollywood",
+      "name": "Hollywood Has-Beens",
+      "prefix": "HH",
+      "description": "Fading stars and reboot nightmares"
+    },
+    {
+      "id": "horror-parodies",
+      "name": "Horror Classics Parodies",
+      "prefix": "HP",
+      "description": "Slashers meet suburban mundanity"
+    },
+    {
+      "id": "scifi",
+      "name": "Sci-Fi Future Misfits",
+      "prefix": "SF",
+      "description": "Glitchy cyborgs and space disasters"
+    },
+    {
+      "id": "election",
+      "name": "Election Trash Talk",
+      "prefix": "ET",
+      "description": "Political circus body horror"
+    },
+    {
+      "id": "monster-mashup",
+      "name": "Monster Mash-Up",
       "prefix": "MM",
-      "count": 9
+      "description": "Classic monsters gone wrong"
+    },
+    {
+      "id": "mythical",
+      "name": "Mythical Mayhem",
+      "prefix": "MY",
+      "description": "Mythology meets modern retail"
+    },
+    {
+      "id": "cabbage-rejects",
+      "name": "Cabbage Patch Rejects",
+      "prefix": "CR",
+      "description": "Factory defect doll nightmares"
     }
   ],
   "cards": [
@@ -41,7 +113,8 @@
       "raw": "cards/SA-01a_moldy-marty.png",
       "framed": "cards/framed/SA-01a_moldy-marty_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A gross cartoon kid is stuck halfway inside the wall of a suburban house. His head and shoulders bulge out between crooked siding boards, arms bent and pinned. Thick puffy green mold blobs grow across his cheeks, neck, and forehead in rounded lumps. Small spore dots puff out of his open mouth and drift onto the wall around him. Colors emphasize slime green and pale sickly skin with warm painted rendering."
     },
     {
       "number": 1,
@@ -51,7 +124,8 @@
       "raw": "cards/SA-01b_sporey-cory.png",
       "framed": "cards/framed/SA-01b_sporey-cory_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A swollen cartoon kid bulges out of the side of a suburban house like he grew there. His skin looks stretched and damp, eyes wide and empty, mouth slightly open. Huge fungus blobs stack on his head and shoulders, spreading onto the wall in thick patches. Clouds of tiny spore dots float around his face and cling to the siding. Colors emphasize yellow-green fungus, muted house tones, and soft airbrushed shading."
     },
     {
       "number": 2,
@@ -61,7 +135,8 @@
       "raw": "cards/SA-02a_sprinkler-spence.png",
       "framed": "cards/framed/SA-02a_sprinkler-spence_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A bloated cartoon kid stands on a suburban lawn, puffed up like a water balloon. His arms hang heavy, eyes bulge, and his face is totally blank. Bright blue water pours from his mouth, nose, and ears in thick ribbon streams. Two small lawn sprinklers spray curved arcs of water behind his head. Colors emphasize cyan water, bright green grass, and soft airbrushed shading."
     },
     {
       "number": 2,
@@ -71,7 +146,8 @@
       "raw": "cards/SA-02b_drownin-devin.png",
       "framed": "cards/framed/SA-02b_drownin-devin_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A soaked cartoon kid sinks into a muddy suburban lawn up to his ankles. His knees bend inward as he struggles to stay upright, cheeks puffed with water. Thin streams of blue water leak from cracks along his torso and arms. Sprinklers behind him keep spraying while mud grips his feet. Colors emphasize brown mud, blue water, and bright green lawn shapes."
     },
     {
       "number": 3,
@@ -81,7 +157,8 @@
       "raw": "cards/SA-03a_hoa-hank.png",
       "framed": "cards/framed/SA-03a_hoa-hank_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A stiff cartoon kid stands like a neighborhood boss in front of identical houses. He holds a clipboard fused to his arm, smirking with half-closed eyes. Blocky rule marks are etched all over his skin like carved lines. Red stamp rectangles press into his chest and face like fresh approvals. Colors emphasize khaki, pale skin tones, and harsh red accents."
     },
     {
       "number": 3,
@@ -91,7 +168,8 @@
       "raw": "cards/SA-03b_fine-line-frank.png",
       "framed": "cards/framed/SA-03b_fine-line-frank_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A skinny cartoon kid stands rigid with a measuring tape wrapped around his head. He smiles thinly, eyes sharp and judgmental. Fine rule lines cover his arms and legs like carved tally marks. Small red stamp icons dot his body where the lines cluster. Colors emphasize beige, pale skin tones, and aggressive red details."
     },
     {
       "number": 4,
@@ -101,7 +179,8 @@
       "raw": "cards/SA-04a_bbq-blake.png",
       "framed": "cards/framed/SA-04a_bbq-blake_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid stands braced on a lawn as a grill blows up behind him. His mouth is open in shock, eyes wide and crooked. Flames burst upward in jagged shapes while one side of his body turns black and cracked. Hot dog and burger shapes fly through the air around him. Colors emphasize fire orange, char black, and bright green grass."
     },
     {
       "number": 4,
@@ -111,7 +190,8 @@
       "raw": "cards/SA-04b_charred-chad.png",
       "framed": "cards/framed/SA-04b_charred-chad_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A soot-covered cartoon doll wobbles next to a smoky BBQ grill. His sunglasses sag down his face, grin frozen in surprise. Dark charcoal smudges and grey ash coat his arms and cheeks in messy patches. A warped grill sits nearby with a crooked lid and a burnt hot dog on a fork. Colors emphasize grey soot, orange grill glow, and warm painted rendering."
     },
     {
       "number": 5,
@@ -121,7 +201,8 @@
       "raw": "cards/SA-05a_mulch-mouth-mel.png",
       "framed": "cards/framed/SA-05a_mulch-mouth-mel_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A kneeling cartoon kid leans over a garden bed with his jaw stretched wide. His eyes are excited and wild, mouth opened too far. Worms, leaves, and dirt spill from his mouth in chunky flat shapes. Green slime drips from his lips into the mulch pile. Colors emphasize earth brown, slime green, and soft airbrushed shading."
     },
     {
       "number": 5,
@@ -131,7 +212,8 @@
       "raw": "cards/SA-05b_compost-kyle.png",
       "framed": "cards/framed/SA-05b_compost-kyle_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid stands smiling with his belly layered like compost. His eyes are calm and half-closed, arms relaxed. Dirt bands, roots, and worms stack across his torso in layered sections. Leaves and bug icons float loosely around his shoulders. Colors emphasize brown soil tones, plant green, and warm painted rendering."
     },
     {
       "number": 6,
@@ -141,7 +223,8 @@
       "raw": "cards/SA-06a_leaf-bag-lee.png",
       "framed": "cards/framed/SA-06a_leaf-bag-lee_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll is tangled inside a huge pile of autumn leaves. Wet sticky leaves plaster all over his face, hair, and arms in thick layers. A rake leans against the pile and leaf fragments drift everywhere. His expression is startled, with wide eyes peeking through gaps in the leaves. Colors emphasize orange, yellow, red leaves, and warm painted rendering."
     },
     {
       "number": 6,
@@ -151,7 +234,8 @@
       "raw": "cards/SA-06b_rake-face-ray.png",
       "framed": "cards/framed/SA-06b_rake-face-ray_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid faces forward with a rake pressed into his face. His mouth is a jagged scream, eyes wide and panicked. Blunt rake tines push into his skin, marked by red splatter shapes. Leaves cling to his cheeks and chin like decals. Colors emphasize hazard red, autumn tones, and soft airbrushed shading."
     },
     {
       "number": 7,
@@ -161,7 +245,8 @@
       "raw": "cards/SA-07a_detention-dan.png",
       "framed": "cards/framed/SA-07a_detention-dan_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll melts slowly into a school desk from pure boredom. His body droops and sags over the desk like warm putty, oozing downward. Wood grain texture presses through his stretchy skin in wavy patterns. His eyes are droopy and half-closed with a dopey bored expression. Colors emphasize brown desk wood, pale doughy skin, and warm painted rendering."
     },
     {
       "number": 7,
@@ -171,7 +256,8 @@
       "raw": "cards/SA-07b_suspended-sid.png",
       "framed": "cards/framed/SA-07b_suspended-sid_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid floats above the classroom floor. Stacks of paper wrap around his arms and legs, holding him up. Staples pin the papers tightly to his body in neat rows. His legs dangle limp and useless beneath him. Colors emphasize off-white paper, red stamp marks, and pale green walls."
     },
     {
       "number": 8,
@@ -181,7 +267,8 @@
       "raw": "cards/SA-08a_quiz-bleed-quinn.png",
       "framed": "cards/framed/SA-08a_quiz-bleed-quinn_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll sits buried under a huge pile of messy test papers. Purple and blue ink splotches smear all over his face and hands. Crumpled answer sheets stick to his head and arms with wet ink. A snapped pencil pokes out of the pile next to his cheek. Colors emphasize white paper, purple ink splotches, and pale skin tones."
     },
     {
       "number": 8,
@@ -191,7 +278,8 @@
       "raw": "cards/SA-08b_test-press-tess.png",
       "framed": "cards/framed/SA-08b_test-press-tess_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll peeks out from under a towering stack of test papers. Answer bubble imprints are stamped across her cheeks and forehead. Torn paper edges curl around her messy hair like a paper nest. Purple ink smudges streak across the desk and her arms. Colors emphasize off-white paper, purple ink, and soft airbrushed shading."
     },
     {
       "number": 9,
@@ -201,7 +289,8 @@
       "raw": "cards/SA-09a_locker-rot-rob.png",
       "framed": "cards/framed/SA-09a_locker-rot-rob_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid crawls halfway out of a school locker. Black slime drips from the locker hinges onto his shoulders. His skin looks gray and rotten in flat patches. Books stand upright inside the locker like gravestones. Colors emphasize dull blue metal, black slime, and pale skin."
     },
     {
       "number": 9,
@@ -211,7 +300,8 @@
       "raw": "cards/SA-09b_coffin-case-carl.png",
       "framed": "cards/framed/SA-09b_coffin-case-carl_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid is trapped inside a bulging locker. Only his head and hands squeeze out through bent seams. His cheeks are smashed flat, eyes glowing wide. Thick slime drips from his fingertips in rounded drops. Colors emphasize dark blue metal, neon slime, and warm painted rendering."
     },
     {
       "number": 10,
@@ -221,7 +311,8 @@
       "raw": "cards/SA-10a_hall-pass-pat.png",
       "framed": "cards/framed/SA-10a_hall-pass-pat_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid runs in place down a school hallway. His knees lift high but he never moves forward. Hall passes are stapled all over his body, flapping outward. His mouth is open in a confused gasp. Colors emphasize pale walls, off-white paper, and red stamp accents."
     },
     {
       "number": 10,
@@ -231,7 +322,8 @@
       "raw": "cards/SA-10b_truancy-troy.png",
       "framed": "cards/framed/SA-10b_truancy-troy_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid stands still as parts of his body disappear. Chunks of him fade into white blank space. Red stamp rectangles cover what remains of his torso. His face looks tired and empty. Colors emphasize pale greens, red stamps, and warm painted rendering."
     },
     {
       "number": 11,
@@ -241,7 +333,8 @@
       "raw": "cards/SA-11a_substitute-sue.png",
       "framed": "cards/framed/SA-11a_substitute-sue_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon teacher smiles stiffly at the chalkboard. Parts of her arm and face crumble into chalk chunks. White chalk blocks fall at her feet in a small pile. Her eyes stay wide and friendly. Colors emphasize chalk white, pale green walls, and soft airbrushed shading."
     },
     {
       "number": 11,
@@ -251,7 +344,8 @@
       "raw": "cards/SA-11b_long-term-lorrie.png",
       "framed": "cards/framed/SA-11b_long-term-lorrie_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon teacher is fused into the classroom wall and floor. Her legs melt into the tiles beneath her. One arm disappears into the chalkboard holding chalk. Her face droops with exhaustion. Colors emphasize dull greens, off-white walls, and warm painted rendering."
     },
     {
       "number": 12,
@@ -261,7 +355,8 @@
       "raw": "cards/SA-12a_guidance-gail.png",
       "framed": "cards/framed/SA-12a_guidance-gail_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon counselor smiles behind a desk. She feeds papers into a big shredder. The shredder spits out long curled strips and dark shapes. Paper piles grow at her feet like a drift. Colors emphasize bright office colors and soft airbrushed shading."
     },
     {
       "number": 12,
@@ -271,7 +366,8 @@
       "raw": "cards/SA-12b_career-path-pam.png",
       "framed": "cards/framed/SA-12b_career-path-pam_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon counselor holds a huge flowchart. Arrows pin small kid silhouettes on the chart like pushpins. She points proudly while smiling. Broken arrow pieces scatter on the floor. Colors emphasize bright arrows, white charts, and black silhouettes."
     },
     {
       "number": 13,
@@ -281,7 +377,8 @@
       "raw": "cards/SA-13a_officer-ooze.png",
       "framed": "cards/framed/SA-13a_officer-ooze_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll stands stiff in a melting oversized uniform. The soggy uniform sags and drips thick green slime from every fold. Green ooze seeps from his collar, sleeves, and pockets in heavy globs. A shiny badge droops sideways on his chest, half-covered in goo. Colors emphasize dark blue fabric, slime green, and heavy shadows."
     },
     {
       "number": 13,
@@ -291,7 +388,8 @@
       "raw": "cards/SA-13b_badge-melt-brent.png",
       "framed": "cards/framed/SA-13b_badge-melt-brent_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon cop is locked solid in fused armor. His arms cannot bend at all, elbows stuck straight. Slime trails down his legs in thick drips. His jaw is clenched tight behind the visor shape. Colors emphasize navy blue, neon green slime, and warm painted rendering."
     },
     {
       "number": 14,
@@ -301,7 +399,8 @@
       "raw": "cards/SA-14a_mayor-rot.png",
       "framed": "cards/framed/SA-14a_mayor-rot_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon mayor stands smiling behind a podium. Half his face peels away to bone and teeth shapes. Confetti sticks to both sides of his head like dots. Microphones crowd his mouth in a tight cluster. Colors emphasize red, blue, sickly green, and bone white."
     },
     {
       "number": 14,
@@ -311,7 +410,8 @@
       "raw": "cards/SA-14b_campaign-cain.png",
       "framed": "cards/framed/SA-14b_campaign-cain_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll in an oversized suit leans forward with arms wide open. His torso deflates inward like a crumpling balloon, suit collapsing. Wrinkled fabric folds inward where his chest should puff out. Microphones crowd around him from all sides on wobbly stands. Colors emphasize campaign red, navy suit, and deep painted shadows."
     },
     {
       "number": 15,
@@ -321,7 +421,8 @@
       "raw": "cards/SA-15a_judge-sludge.png",
       "framed": "cards/framed/SA-15a_judge-sludge_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon judge slumps behind the bench. A giant gavel presses through his head like a stuck tool. His robe melts into thick sludge over the desk. Papers float in the goo as flat rectangles. Colors emphasize black, purple, and brown sludge tones."
     },
     {
       "number": 15,
@@ -331,7 +432,8 @@
       "raw": "cards/SA-15b_verdict-vern.png",
       "framed": "cards/framed/SA-15b_verdict-vern_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon judge sinks deeper into robe sludge. Only his tired face peeks out, eyes half shut. The gavel glows faintly above him. The bench sags under the weight of the goo. Colors emphasize dark shadows and dull highlights."
     },
     {
       "number": 16,
@@ -341,7 +443,8 @@
       "raw": "cards/SA-16a_principal-punx.png",
       "framed": "cards/framed/SA-16a_principal-punx_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon principal stands rigid in a hallway. His mouth is sealed shut with duct tape strips. A huge rulebook is nailed to his chest like a sign. His eyes burn with anger. Colors emphasize gray tape, brown book, and red nail heads."
     },
     {
       "number": 16,
@@ -351,7 +454,8 @@
       "raw": "cards/SA-16b_zero-tolerance-zed.png",
       "framed": "cards/framed/SA-16b_zero-tolerance-zed_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll stands perfectly straight wrapped in layers of paper. Rule pages are pasted and taped around his body like papier-mache armor. Bright red stamp marks cover every visible sheet in thick blocks. His face peers out from the paper wrapping with a blank stare. Colors emphasize white paper, red stamps, and pale institution walls."
     },
     {
       "number": 17,
@@ -361,7 +465,8 @@
       "raw": "cards/SA-17a_crossing-guard-greg.png",
       "framed": "cards/framed/SA-17a_crossing-guard-greg_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid lies flattened on the street. His safety vest stretches wide across his body like a sticker. Cars rush past on both sides as blocky shapes. A bent stop sign leans toward him. Colors emphasize neon yellow, asphalt gray, and hazard red."
     },
     {
       "number": 17,
@@ -371,7 +476,8 @@
       "raw": "cards/SA-17b_traffic-tarp-tom.png",
       "framed": "cards/framed/SA-17b_traffic-tarp-tom_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid is stretched long across the road. An orange tarp drags over his body in big folds. One hand reaches forward, flattened like a paddle. Lane lines run beneath him in stark stripes. Colors emphasize hazard orange and bright white markings."
     },
     {
       "number": 18,
@@ -381,7 +487,8 @@
       "raw": "cards/SA-18a_watchdog-walt.png",
       "framed": "cards/framed/SA-18a_watchdog-walt_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon doll stands under a streetlight at night wearing odd gadgets. Chunky camera gadgets are strapped to his head like bulky goggles. Small glowing screens are stuck across his shirt with flickering static. Thick cables tangle around his feet and trail along the ground. Colors emphasize dark blue night tones and neon green glow."
     },
     {
       "number": 18,
@@ -391,335 +498,1460 @@
       "raw": "cards/SA-18b_neighborhood-ned.png",
       "framed": "cards/framed/SA-18b_neighborhood-ned_framed.webp",
       "status": "framed",
-      "seriesId": "sa"
+      "seriesId": "sa",
+      "description": "A cartoon kid is covered head to toe in cameras. Screens flicker across his body in bright rectangles. Thick cables wrap around his legs and trail into the street. Identical houses sit silently behind him as simple shapes. Colors emphasize black, green glow, and soft airbrushed shading."
     },
     {
       "number": 1,
+      "variant": "a",
       "name": "Mohawk Mike",
+      "other_name": "Spiked Spencer",
+      "raw": "cards/gpk/01_mohawk_mike.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "punk",
-      "raw": "cards/GPK-01_mohawk-mike.png",
-      "framed": "cards/framed/GPK-01_mohawk-mike_framed.webp",
-      "status": "framed"
+      "description": "A sneering cartoon punk kid with a towering green mohawk that scrapes the ceiling. Safety pins pierce his ears and nose in thick clusters. His leather jacket drips with studs and patches. Spit flies from his snarling mouth."
+    },
+    {
+      "number": 1,
+      "variant": "b",
+      "name": "Spiked Spencer",
+      "other_name": "Mohawk Mike",
+      "raw": "cards/gpk/01_spiked_spencer.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "punk",
+      "description": "A sneering cartoon punk kid with a towering green mohawk that scrapes the ceiling. Safety pins pierce his ears and nose in thick clusters. His leather jacket drips with studs and patches. Spit flies from his snarling mouth."
     },
     {
       "number": 2,
+      "variant": "a",
       "name": "Thrash Travis",
+      "other_name": "Windmill Wally",
+      "raw": "cards/gpk/02_thrash_travis.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "punk",
-      "raw": "cards/GPK-02_thrash-travis.png",
-      "framed": "cards/framed/GPK-02_thrash-travis_framed.webp",
-      "status": "framed"
+      "description": "A thrashing cartoon kid windmills his arms in a circle pit. His torn shirt flaps in shreds around his torso. Sweat and spit spray outward in wild arcs. The floor cracks beneath his stomping boots."
+    },
+    {
+      "number": 2,
+      "variant": "b",
+      "name": "Windmill Wally",
+      "other_name": "Thrash Travis",
+      "raw": "cards/gpk/02_windmill_wally.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "punk",
+      "description": "A thrashing cartoon kid windmills his arms in a circle pit. His torn shirt flaps in shreds around his torso. Sweat and spit spray outward in wild arcs. The floor cracks beneath his stomping boots."
     },
     {
       "number": 3,
+      "variant": "a",
       "name": "Studded Steve",
+      "other_name": "Riveted Randy",
+      "raw": "cards/gpk/03_studded_steve.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "punk",
-      "raw": "cards/GPK-03_studded-steve.png",
-      "framed": "cards/framed/GPK-03_studded-steve_framed.webp",
-      "status": "framed"
+      "description": "A cartoon kid is covered head to toe in metal studs. They poke through his jacket, belt, boots, and even his skin. Each stud gleams under harsh stage lighting. His eyes are hidden behind a wall of spikes."
+    },
+    {
+      "number": 3,
+      "variant": "b",
+      "name": "Riveted Randy",
+      "other_name": "Studded Steve",
+      "raw": "cards/gpk/03_riveted_randy.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "punk",
+      "description": "A cartoon kid is covered head to toe in metal studs. They poke through his jacket, belt, boots, and even his skin. Each stud gleams under harsh stage lighting. His eyes are hidden behind a wall of spikes."
     },
     {
       "number": 4,
+      "variant": "a",
       "name": "Fiend Fred",
+      "other_name": "Crimson Craig",
+      "raw": "cards/gpk/04_fiend_fred.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "punk",
-      "raw": "cards/GPK-04_fiend-fred.png",
-      "framed": "cards/framed/GPK-04_fiend-fred_framed.webp",
-      "status": "framed"
+      "description": "A cartoon kid in a Misfits-style skull face howls into the night. Black and white paint streaks down his face in jagged lines. His devilock hair hangs past his nose. Bats circle his head like a halo."
+    },
+    {
+      "number": 4,
+      "variant": "b",
+      "name": "Crimson Craig",
+      "other_name": "Fiend Fred",
+      "raw": "cards/gpk/04_crimson_craig.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "punk",
+      "description": "A cartoon kid in a Misfits-style skull face howls into the night. Black and white paint streaks down his face in jagged lines. His devilock hair hangs past his nose. Bats circle his head like a halo."
     },
     {
       "number": 5,
+      "variant": "a",
       "name": "Jello Jake",
+      "other_name": "Gelatin Gary",
+      "raw": "cards/gpk/05_jello_jake.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "punk",
-      "raw": "cards/GPK-05_jello-jake.png",
-      "framed": "cards/framed/GPK-05_jello-jake_framed.webp",
-      "status": "framed"
+      "description": "A cartoon kid writhes on stage covered in green gelatin. The jello wobbles and sloshes with every move. His mouth is open in a political rant nobody can hear. Letters and symbols float in the gelatin."
+    },
+    {
+      "number": 5,
+      "variant": "b",
+      "name": "Gelatin Gary",
+      "other_name": "Jello Jake",
+      "raw": "cards/gpk/05_gelatin_gary.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "punk",
+      "description": "A cartoon kid writhes on stage covered in green gelatin. The jello wobbles and sloshes with every move. His mouth is open in a political rant nobody can hear. Letters and symbols float in the gelatin."
     },
     {
       "number": 6,
+      "variant": "a",
       "name": "Amplifier Andy",
+      "other_name": "Feedback Frankie",
+      "raw": "cards/gpk/06_amplifier_andy.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "punk",
-      "raw": "cards/GPK-06_amplifier-andy.png",
-      "framed": "cards/framed/GPK-06_amplifier-andy_framed.webp",
-      "status": "framed"
+      "description": "A cartoon kid is fused into a massive guitar amplifier stack. Cables wrap around his body like vines. Sound waves blast outward in visible ripples. His ears bleed musical notes."
+    },
+    {
+      "number": 6,
+      "variant": "b",
+      "name": "Feedback Frankie",
+      "other_name": "Amplifier Andy",
+      "raw": "cards/gpk/06_feedback_frankie.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "punk",
+      "description": "A cartoon kid is fused into a massive guitar amplifier stack. Cables wrap around his body like vines. Sound waves blast outward in visible ripples. His ears bleed musical notes."
     },
     {
       "number": 7,
+      "variant": "a",
       "name": "Stage Dive Dan",
+      "other_name": "Crowdsurf Carl",
+      "raw": "cards/gpk/07_stage_dive_dan.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "punk",
-      "raw": "cards/GPK-07_stage-dive-dan.png",
-      "framed": "cards/framed/GPK-07_stage-dive-dan_framed.webp",
-      "status": "framed"
+      "description": "A cartoon kid launches off the stage into empty air. The crowd below is a sea of raised fists. His body is horizontal, arms spread wide. The stage crumbles behind him from the impact."
+    },
+    {
+      "number": 7,
+      "variant": "b",
+      "name": "Crowdsurf Carl",
+      "other_name": "Stage Dive Dan",
+      "raw": "cards/gpk/07_crowdsurf_carl.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "punk",
+      "description": "A cartoon kid launches off the stage into empty air. The crowd below is a sea of raised fists. His body is horizontal, arms spread wide. The stage crumbles behind him from the impact."
     },
     {
       "number": 8,
+      "variant": "a",
       "name": "Mohican Mark",
+      "other_name": "Towering Tommy",
+      "raw": "cards/gpk/08_mohican_mark.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "punk",
-      "raw": "cards/GPK-08_mohican-mark.png",
-      "framed": "cards/framed/GPK-08_mohican-mark_framed.webp",
-      "status": "framed"
+      "description": "A cartoon kid with a towering mohican haircut that defies gravity. The hair is dyed in stripes of neon colors. Egg whites and glue drip from the spikes. His neck strains under the weight."
+    },
+    {
+      "number": 8,
+      "variant": "b",
+      "name": "Towering Tommy",
+      "other_name": "Mohican Mark",
+      "raw": "cards/gpk/08_towering_tommy.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "punk",
+      "description": "A cartoon kid with a towering mohican haircut that defies gravity. The hair is dyed in stripes of neon colors. Egg whites and glue drip from the spikes. His neck strains under the weight."
     },
     {
       "number": 9,
+      "variant": "a",
       "name": "Danzig Danny",
+      "other_name": "Misfits Marvin",
+      "raw": "cards/gpk/09_danzig_danny.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "punk",
-      "raw": "cards/GPK-09_danzig-danny.png",
-      "framed": "cards/framed/GPK-09_danzig-danny_framed.webp",
-      "status": "framed"
+      "description": "A hulking cartoon kid flexes in a dark basement. His muscles bulge through a torn black tank top. A skull medallion hangs from his thick neck. His eyes glow red in the shadows."
+    },
+    {
+      "number": 9,
+      "variant": "b",
+      "name": "Misfits Marvin",
+      "other_name": "Danzig Danny",
+      "raw": "cards/gpk/09_misfits_marvin.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "punk",
+      "description": "A hulking cartoon kid flexes in a dark basement. His muscles bulge through a torn black tank top. A skull medallion hangs from his thick neck. His eyes glow red in the shadows."
     },
     {
       "number": 10,
+      "variant": "a",
       "name": "Rancid Randy",
+      "other_name": "Decomposed Donnie",
+      "raw": "cards/gpk/10_rancid_randy.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "punk",
-      "raw": "cards/GPK-10_rancid-randy.png",
-      "framed": "cards/framed/GPK-10_rancid-randy_framed.webp",
-      "status": "framed"
+      "description": "A cartoon kid decomposes while still standing upright. Green patches of rot spread across his skin. Mohawk spikes droop sideways from the decay. He grins through missing teeth."
+    },
+    {
+      "number": 10,
+      "variant": "b",
+      "name": "Decomposed Donnie",
+      "other_name": "Rancid Randy",
+      "raw": "cards/gpk/10_decomposed_donnie.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "punk",
+      "description": "A cartoon kid decomposes while still standing upright. Green patches of rot spread across his skin. Mohawk spikes droop sideways from the decay. He grins through missing teeth."
     },
     {
       "number": 11,
+      "variant": "a",
       "name": "Slam Dance Sam",
+      "other_name": "Moshing Murray",
+      "raw": "cards/gpk/11_slam_dance_sam.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "punk",
-      "raw": "cards/GPK-11_slam-dance-sam.png",
-      "framed": "cards/framed/GPK-11_slam-dance-sam_framed.webp",
-      "status": "framed"
+      "description": "A cartoon kid slams into other invisible bodies in a mosh pit. His limbs fly at impossible angles. Bruises and boot prints cover his face. Stars and birds circle his dented head."
+    },
+    {
+      "number": 11,
+      "variant": "b",
+      "name": "Moshing Murray",
+      "other_name": "Slam Dance Sam",
+      "raw": "cards/gpk/11_moshing_murray.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "punk",
+      "description": "A cartoon kid slams into other invisible bodies in a mosh pit. His limbs fly at impossible angles. Bruises and boot prints cover his face. Stars and birds circle his dented head."
     },
     {
       "number": 12,
+      "variant": "a",
       "name": "Oderus Icky",
+      "other_name": "Scumdog Scotty",
+      "raw": "cards/gpk/12_oderus_icky.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "gwar",
-      "raw": "cards/GPK-12_oderus-icky.png",
-      "framed": "cards/framed/GPK-12_oderus-icky_framed.webp",
-      "status": "framed"
+      "description": "A monstrous cartoon alien warrior in spiked battle armor towers over a ruined stage. Green slime drips from massive shoulder pads. A horned helmet frames glowing red eyes. Fake blood sprays in every direction."
+    },
+    {
+      "number": 12,
+      "variant": "b",
+      "name": "Scumdog Scotty",
+      "other_name": "Oderus Icky",
+      "raw": "cards/gpk/12_scumdog_scotty.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "gwar",
+      "description": "A monstrous cartoon alien warrior in spiked battle armor towers over a ruined stage. Green slime drips from massive shoulder pads. A horned helmet frames glowing red eyes. Fake blood sprays in every direction."
     },
     {
       "number": 13,
+      "variant": "a",
       "name": "Splatter Sam",
+      "other_name": "Gore-Spray Gary",
+      "raw": "cards/gpk/13_splatter_sam.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "gwar",
-      "raw": "cards/GPK-13_splatter-sam.png",
-      "framed": "cards/framed/GPK-13_splatter-sam_framed.webp",
-      "status": "framed"
+      "description": "A cartoon alien berserker swings a foam battle axe through a fountain of fake blood. Colored liquid sprays in thick arcs across the stage. His armor is caked in layers of dried goo. War paint streaks his snarling face."
+    },
+    {
+      "number": 13,
+      "variant": "b",
+      "name": "Gore-Spray Gary",
+      "other_name": "Splatter Sam",
+      "raw": "cards/gpk/13_gore_spray_gary.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "gwar",
+      "description": "A cartoon alien berserker swings a foam battle axe through a fountain of fake blood. Colored liquid sprays in thick arcs across the stage. His armor is caked in layers of dried goo. War paint streaks his snarling face."
     },
     {
       "number": 14,
+      "variant": "a",
       "name": "Balsac Bobby",
+      "other_name": "Jawbone Jerry",
+      "raw": "cards/gpk/14_balsac_bobby.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "gwar",
-      "raw": "cards/GPK-14_balsac-bobby.png",
-      "framed": "cards/framed/GPK-14_balsac-bobby_framed.webp",
-      "status": "framed"
+      "description": "A cartoon alien gladiator with a giant metal jaw prosthetic charges forward. His armor is made of welded scrap metal and bones. Sparks fly from dragging weapons. One eye gleams through a battered visor."
+    },
+    {
+      "number": 14,
+      "variant": "b",
+      "name": "Jawbone Jerry",
+      "other_name": "Balsac Bobby",
+      "raw": "cards/gpk/14_jawbone_jerry.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "gwar",
+      "description": "A cartoon alien gladiator with a giant metal jaw prosthetic charges forward. His armor is made of welded scrap metal and bones. Sparks fly from dragging weapons. One eye gleams through a battered visor."
     },
     {
       "number": 15,
+      "variant": "a",
       "name": "Sleazy Steve",
+      "other_name": "Slimethrone Seth",
+      "raw": "cards/gpk/15_sleazy_steve.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "gwar",
-      "raw": "cards/GPK-15_sleazy-steve.png",
-      "framed": "cards/framed/GPK-15_sleazy-steve_framed.webp",
-      "status": "framed"
+      "description": "A sleazy cartoon alien lounges on a throne of broken guitars. His costume oozes with metallic slime. Sunglasses sit crooked on his reptilian face. Empty bottles and debris litter the floor."
+    },
+    {
+      "number": 15,
+      "variant": "b",
+      "name": "Slimethrone Seth",
+      "other_name": "Sleazy Steve",
+      "raw": "cards/gpk/15_slimethrone_seth.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "gwar",
+      "description": "A sleazy cartoon alien lounges on a throne of broken guitars. His costume oozes with metallic slime. Sunglasses sit crooked on his reptilian face. Empty bottles and debris litter the floor."
     },
     {
       "number": 16,
+      "variant": "a",
       "name": "Flattus Freddy",
+      "other_name": "Phantom Phil",
+      "raw": "cards/gpk/16_flattus_freddy.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "gwar",
-      "raw": "cards/GPK-16_flattus-freddy.png",
-      "framed": "cards/framed/GPK-16_flattus-freddy_framed.webp",
-      "status": "framed"
+      "description": "A ghostly cartoon alien floats above the stage in tattered robes. His guitar shoots lightning bolts into the crowd. A pale mask covers features that shift and blur. Smoke billows from beneath his hovering form."
+    },
+    {
+      "number": 16,
+      "variant": "b",
+      "name": "Phantom Phil",
+      "other_name": "Flattus Freddy",
+      "raw": "cards/gpk/16_phantom_phil.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "gwar",
+      "description": "A ghostly cartoon alien floats above the stage in tattered robes. His guitar shoots lightning bolts into the crowd. A pale mask covers features that shift and blur. Smoke billows from beneath his hovering form."
     },
     {
       "number": 17,
+      "variant": "a",
       "name": "Jizmak Jake",
+      "other_name": "Skullkit Kenny",
+      "raw": "cards/gpk/17_jizmak_jake.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "gwar",
-      "raw": "cards/GPK-17_jizmak-jake.png",
-      "framed": "cards/framed/GPK-17_jizmak-jake_framed.webp",
-      "status": "framed"
+      "description": "A massive cartoon alien drummer pounds on skulls arranged as a drum kit. His four arms blur with speed. Drumsticks shatter on impact and regrow instantly. Thunder rumbles with every hit."
+    },
+    {
+      "number": 17,
+      "variant": "b",
+      "name": "Skullkit Kenny",
+      "other_name": "Jizmak Jake",
+      "raw": "cards/gpk/17_skullkit_kenny.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "gwar",
+      "description": "A massive cartoon alien drummer pounds on skulls arranged as a drum kit. His four arms blur with speed. Drumsticks shatter on impact and regrow instantly. Thunder rumbles with every hit."
     },
     {
       "number": 18,
+      "variant": "a",
       "name": "Vulvatron Vicky",
+      "other_name": "Chrome Queen Connie",
+      "raw": "cards/gpk/18_vulvatron_vicky.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "gwar",
-      "raw": "cards/GPK-18_vulvatron-vicky.png",
-      "framed": "cards/framed/GPK-18_vulvatron-vicky_framed.webp",
-      "status": "framed"
+      "description": "A fierce cartoon alien warrior queen stands in chrome battle armor. Metallic paint drips from her spiked shoulder plates. Her visor reflects flames from the stage. Electricity arcs between her gauntlets."
+    },
+    {
+      "number": 18,
+      "variant": "b",
+      "name": "Chrome Queen Connie",
+      "other_name": "Vulvatron Vicky",
+      "raw": "cards/gpk/18_chrome_queen_connie.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "gwar",
+      "description": "A fierce cartoon alien warrior queen stands in chrome battle armor. Metallic paint drips from her spiked shoulder plates. Her visor reflects flames from the stage. Electricity arcs between her gauntlets."
     },
     {
       "number": 19,
+      "variant": "a",
       "name": "Bonesnapper Brad",
+      "other_name": "Skeletal Sid",
+      "raw": "cards/gpk/19_bonesnapper_brad.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "gwar",
-      "raw": "cards/GPK-19_bonesnapper-brad.png",
-      "framed": "cards/framed/GPK-19_bonesnapper-brad_framed.webp",
-      "status": "framed"
+      "description": "A skeletal cartoon alien in bone armor snaps at the air with massive jaws. His spine extends into a whipping tail. Cracked bones jut from his shoulders like spikes. Dust and fragments fall from every movement."
+    },
+    {
+      "number": 19,
+      "variant": "b",
+      "name": "Skeletal Sid",
+      "other_name": "Bonesnapper Brad",
+      "raw": "cards/gpk/19_skeletal_sid.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "gwar",
+      "description": "A skeletal cartoon alien in bone armor snaps at the air with massive jaws. His spine extends into a whipping tail. Cracked bones jut from his shoulders like spikes. Dust and fragments fall from every movement."
     },
     {
       "number": 20,
+      "variant": "a",
       "name": "Pustulus Paul",
+      "other_name": "Blister Bill",
+      "raw": "cards/gpk/20_pustulus_paul.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "gwar",
-      "raw": "cards/GPK-20_pustulus-paul.png",
-      "framed": "cards/framed/GPK-20_pustulus-paul_framed.webp",
-      "status": "framed"
+      "description": "A pustule-covered cartoon alien oozes from every pore on stage. Boils and blisters pop in slow motion. Toxic green liquid pools at his feet. His guitar dissolves where his hands grip it."
+    },
+    {
+      "number": 20,
+      "variant": "b",
+      "name": "Blister Bill",
+      "other_name": "Pustulus Paul",
+      "raw": "cards/gpk/20_blister_bill.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "gwar",
+      "description": "A pustule-covered cartoon alien oozes from every pore on stage. Boils and blisters pop in slow motion. Toxic green liquid pools at his feet. His guitar dissolves where his hands grip it."
     },
     {
       "number": 21,
+      "variant": "a",
       "name": "Slymenstra Hymen",
+      "other_name": "Whiplash Wendy",
+      "raw": "cards/gpk/21_slymenstra_hymen.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "gwar",
-      "raw": "cards/GPK-21_slymenstra-hymen.png",
-      "framed": "cards/framed/GPK-21_slymenstra-hymen_framed.webp",
-      "status": "framed"
+      "description": "A towering cartoon alien dominatrix cracks a whip made of guitar strings. Her elaborate headdress scrapes the rafters. Fake blood drips from ornate shoulder armor. The crowd cowers beneath her shadow."
+    },
+    {
+      "number": 21,
+      "variant": "b",
+      "name": "Whiplash Wendy",
+      "other_name": "Slymenstra Hymen",
+      "raw": "cards/gpk/21_whiplash_wendy.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "gwar",
+      "description": "A towering cartoon alien rock-star cracks a lasso made of guitar strings on stage. Her elaborate alien headdress scrapes the rafters. Ornate spiked shoulder armor glows neon green. Stage fog swirls around her platform boots as the crowd cheers."
     },
     {
       "number": 22,
+      "variant": "a",
       "name": "Costume Carnage Carl",
+      "other_name": "Wardrobe Wreck Wayne",
+      "raw": "cards/gpk/22_costume_carnage_carl.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "gwar",
-      "raw": "cards/GPK-22_costume-carnage-carl.png",
-      "framed": "cards/framed/GPK-22_costume-carnage-carl_framed.webp",
-      "status": "framed"
+      "description": "A cartoon alien warrior destroys his own elaborate costume mid-performance. Pieces of foam armor fly into the crowd. Underneath is another even more grotesque costume. Props and latex scatter across the stage."
+    },
+    {
+      "number": 22,
+      "variant": "b",
+      "name": "Wardrobe Wreck Wayne",
+      "other_name": "Costume Carnage Carl",
+      "raw": "cards/gpk/22_wardrobe_wreck_wayne.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "gwar",
+      "description": "A cartoon alien warrior destroys his own elaborate costume mid-performance. Pieces of foam armor fly into the crowd. Underneath is another even more grotesque costume. Props and latex scatter across the stage."
     },
     {
       "number": 23,
+      "variant": "a",
       "name": "Mel Brooks",
-      "seriesId": "comedy",
-      "raw": "cards/GPK-23_mel-brooks.png",
-      "framed": "cards/framed/GPK-23_mel-brooks_framed.webp",
-      "status": "framed"
+      "other_name": "Blazing Brooksie",
+      "raw": "cards/gpk/23_mel_brooks.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A cartoon Mel Brooks conducts chaos from a director's chair. Film reels unravel around him in wild spirals. A megaphone sprouts from his face like a horn. Movie clapboards snap in midair around his head."
+    },
+    {
+      "number": 23,
+      "variant": "b",
+      "name": "Blazing Brooksie",
+      "other_name": "Mel Brooks",
+      "raw": "cards/gpk/23_blazing_brooksie.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A cartoon Mel Brooks conducts chaos from a director's chair. Film reels unravel around him in wild spirals. A megaphone sprouts from his face like a horn. Movie clapboards snap in midair around his head."
     },
     {
       "number": 24,
+      "variant": "a",
       "name": "Rodney Dangerfield",
-      "seriesId": "comedy",
-      "raw": "cards/GPK-24_rodney-dangerfield.png",
-      "framed": "cards/framed/GPK-24_rodney-dangerfield_framed.webp",
-      "status": "framed"
+      "other_name": "No-Respect Roddy",
+      "raw": "cards/gpk/24_rodney_dangerfield.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A cartoon Rodney Dangerfield tugs at his collar while sweat geysers upward. His bulging eyes pop from their sockets on springs. His red necktie is tied so tight it squeezes his head like a balloon."
+    },
+    {
+      "number": 24,
+      "variant": "b",
+      "name": "No-Respect Roddy",
+      "other_name": "Rodney Dangerfield",
+      "raw": "cards/gpk/24_no_respect_roddy.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A cartoon Rodney Dangerfield tugs at his collar while sweat geysers upward. His bulging eyes pop from their sockets on springs. His red necktie is tied so tight it squeezes his head like a balloon."
     },
     {
       "number": 25,
+      "variant": "a",
       "name": "Woody Allen",
-      "seriesId": "comedy",
-      "raw": "cards/GPK-25_woody-allen.png",
-      "framed": "cards/framed/GPK-25_woody-allen_framed.webp",
-      "status": "framed"
+      "other_name": "Neurotic Ned",
+      "raw": "cards/gpk/25_woody_allen.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A nervous cartoon Woody Allen hides behind enormous black-rimmed glasses. The glasses are so thick they magnify his eyes to dinner-plate size. A therapy couch grows out of his back. New York City skyline wraps around him like a scarf."
+    },
+    {
+      "number": 25,
+      "variant": "b",
+      "name": "Neurotic Ned",
+      "other_name": "Woody Allen",
+      "raw": "cards/gpk/25_neurotic_ned.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A nervous cartoon Woody Allen hides behind enormous black-rimmed glasses. The glasses are so thick they magnify his eyes to dinner-plate size. A therapy couch grows out of his back. New York City skyline wraps around him like a scarf."
     },
     {
       "number": 26,
-      "name": "Dom Deluise",
-      "seriesId": "comedy",
-      "raw": "cards/GPK-26_dom-deluise.png",
-      "framed": "cards/framed/GPK-26_dom-deluise_framed.webp",
-      "status": "framed"
+      "variant": "a",
+      "name": "Dom DeLuise",
+      "other_name": "Demolition Dom",
+      "raw": "cards/gpk/26_dom_deluise.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A jolly cartoon Dom DeLuise bursts through a kitchen wall holding a giant turkey leg. His chef hat is three feet tall and wobbling. Food debris orbits his round body like satellites. His laugh shakes the walls."
+    },
+    {
+      "number": 26,
+      "variant": "b",
+      "name": "Demolition Dom",
+      "other_name": "Dom DeLuise",
+      "raw": "cards/gpk/26_demolition_dom.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A jolly cartoon Dom DeLuise bursts through a kitchen wall holding a giant turkey leg. His chef hat is three feet tall and wobbling. Food debris orbits his round body like satellites. His laugh shakes the walls."
     },
     {
       "number": 27,
+      "variant": "a",
       "name": "Gene Wilder",
-      "seriesId": "comedy",
-      "raw": "cards/GPK-27_gene-wilder.png",
-      "framed": "cards/framed/GPK-27_gene-wilder_framed.webp",
-      "status": "framed"
+      "other_name": "Wilder Gene",
+      "raw": "cards/gpk/27_gene_wilder.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A wild-eyed cartoon Gene Wilder with electrified curly hair that sparks and crackles. His purple velvet jacket morphs into Wonka's coat. One eye twitches while the other stays eerily calm. Chocolate rivers flow from his pockets."
+    },
+    {
+      "number": 27,
+      "variant": "b",
+      "name": "Wilder Gene",
+      "other_name": "Gene Wilder",
+      "raw": "cards/gpk/27_wilder_gene.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A wild-eyed cartoon Gene Wilder with electrified curly hair that sparks and crackles. His purple velvet jacket morphs into Wonka's coat. One eye twitches while the other stays eerily calm. Chocolate rivers flow from his pockets."
     },
     {
       "number": 28,
+      "variant": "a",
       "name": "George Carlin",
-      "seriesId": "comedy",
-      "raw": "cards/GPK-28_george-carlin.png",
-      "framed": "cards/framed/GPK-28_george-carlin_framed.webp",
-      "status": "framed"
+      "other_name": "Carlin's Curse Karl",
+      "raw": "cards/gpk/28_george_carlin.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A cartoon George Carlin stands at a podium that is on fire. His ponytail whips around like an angry snake. Seven forbidden word bubbles float above his head in neon. His Hawaiian shirt patterns are actually tiny protest signs."
+    },
+    {
+      "number": 28,
+      "variant": "b",
+      "name": "Carlin's Curse Karl",
+      "other_name": "George Carlin",
+      "raw": "cards/gpk/28_carlin_s_curse_karl.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A cartoon George Carlin stands at a podium that is on fire. His ponytail whips around like an angry snake. Seven forbidden word bubbles float above his head in neon. His Hawaiian shirt patterns are actually tiny protest signs."
     },
     {
       "number": 29,
+      "variant": "a",
       "name": "John Candy",
-      "seriesId": "comedy",
-      "raw": "cards/GPK-29_john-candy.png",
-      "framed": "cards/framed/GPK-29_john-candy_framed.webp",
-      "status": "framed"
+      "other_name": "Candy Crash Johnny",
+      "raw": "cards/gpk/29_john_candy.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A massive cartoon John Candy splits into three characters at once. One third is a polka musician, another a shower curtain ring salesman, the last a Canadian mountie. Maple syrup drips from all three versions."
+    },
+    {
+      "number": 29,
+      "variant": "b",
+      "name": "Candy Crash Johnny",
+      "other_name": "John Candy",
+      "raw": "cards/gpk/29_candy_crash_johnny.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A massive cartoon John Candy splits into three characters at once. One third is a polka musician, another a shower curtain ring salesman, the last a Canadian mountie. Maple syrup drips from all three versions."
     },
     {
       "number": 30,
+      "variant": "a",
       "name": "Andy Kaufman",
-      "seriesId": "comedy",
-      "raw": "cards/GPK-30_andy-kaufman.png",
-      "framed": "cards/framed/GPK-30_andy-kaufman_framed.webp",
-      "status": "framed"
+      "other_name": "Kaufman Chaos Kenny",
+      "raw": "cards/gpk/30_andy_kaufman.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A cartoon Andy Kaufman wrestles with his own reflection. One version wears a tuxedo, the other a tracksuit. Neither can tell which is the real one. A bongo drum plays itself in the corner."
+    },
+    {
+      "number": 30,
+      "variant": "b",
+      "name": "Kaufman Chaos Kenny",
+      "other_name": "Andy Kaufman",
+      "raw": "cards/gpk/30_kaufman_chaos_kenny.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "comedians",
+      "description": "A cartoon Andy Kaufman wrestles with his own reflection. One version wears a tuxedo, the other a tracksuit. Neither can tell which is the real one. A bongo drum plays itself in the corner."
     },
     {
       "number": 31,
+      "variant": "a",
       "name": "Monty Python",
-      "seriesId": "comedy",
-      "raw": "cards/GPK-31_monty-python.png",
-      "framed": "cards/framed/GPK-31_monty-python_framed.webp",
-      "status": "framed"
+      "other_name": "Python Pileup Pete",
+      "raw": "cards/gpk/31_monty_python.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "bonus",
+      "description": "A cartoon five-headed comedy hydra in medieval armor. Each head is a different Python member arguing with the others. A coconut horse prances nearby. The Holy Hand Grenade glows in the foreground."
+    },
+    {
+      "number": 31,
+      "variant": "b",
+      "name": "Python Pileup Pete",
+      "other_name": "Monty Python",
+      "raw": "cards/gpk/31_python_pileup_pete.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "bonus",
+      "description": "A cartoon five-headed comedy hydra in medieval armor. Each head is a different Python member arguing with the others. A coconut horse prances nearby. The Holy Hand Grenade glows in the foreground."
     },
     {
       "number": 32,
-      "name": "Kids In The Hall",
-      "seriesId": "comedy",
-      "raw": "cards/GPK-32_kids-in-the-hall.png",
-      "framed": "cards/framed/GPK-32_kids-in-the-hall_framed.webp",
-      "status": "framed"
+      "variant": "a",
+      "name": "Kids in the Hall",
+      "other_name": "Hallway Havoc Hank",
+      "raw": "cards/gpk/32_kids_in_the_hall.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "bonus",
+      "description": "Five cartoon heads peek out from behind a single office desk. Each face shows a different extreme emotion. Wigs and costume pieces fly between them. A Head Crusher hand looms in the background."
+    },
+    {
+      "number": 32,
+      "variant": "b",
+      "name": "Hallway Havoc Hank",
+      "other_name": "Kids in the Hall",
+      "raw": "cards/gpk/32_hallway_havoc_hank.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "bonus",
+      "description": "Five cartoon heads peek out from behind a single office desk. Each face shows a different extreme emotion. Wigs and costume pieces fly between them. A Head Crusher hand looms in the background."
     },
     {
       "number": 33,
+      "variant": "a",
       "name": "Misfits Mike",
+      "other_name": "Devilock Danny",
+      "raw": "cards/gpk/33_misfits_mike.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "music",
-      "raw": "cards/GPK-33_misfits-mike.png",
-      "framed": "cards/framed/GPK-33_misfits-mike_framed.webp",
-      "status": "framed"
+      "description": "A cartoon Jerry Only with his massive devilock hair sweeping the floor. His skull-painted bass guitar drips ectoplasm. Bats nest in his towering hair. His platform boots crack the stage beneath him."
+    },
+    {
+      "number": 33,
+      "variant": "b",
+      "name": "Devilock Danny",
+      "other_name": "Misfits Mike",
+      "raw": "cards/gpk/33_devilock_danny.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "music",
+      "description": "A cartoon Jerry Only with his massive devilock hair sweeping the floor. His skull-painted bass guitar drips ectoplasm. Bats nest in his towering hair. His platform boots crack the stage beneath him."
     },
     {
       "number": 34,
+      "variant": "a",
       "name": "Dead Kennedys",
+      "other_name": "Jello Jolt Jerry",
+      "raw": "cards/gpk/34_dead_kennedys.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "music",
-      "raw": "cards/GPK-34_dead-kennedys.png",
-      "framed": "cards/framed/GPK-34_dead-kennedys_framed.webp",
-      "status": "framed"
+      "description": "A cartoon Jello Biafra melts into a pool of political pamphlets. His mouth is a megaphone that never stops. Campaign buttons cover his dissolving body. Police badges orbit his head like angry satellites."
+    },
+    {
+      "number": 34,
+      "variant": "b",
+      "name": "Jello Jolt Jerry",
+      "other_name": "Dead Kennedys",
+      "raw": "cards/gpk/34_jello_jolt_jerry.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "music",
+      "description": "A cartoon Jello Biafra melts into a pool of political pamphlets. His mouth is a megaphone that never stops. Campaign buttons cover his dissolving body. Police badges orbit his head like angry satellites."
     },
     {
       "number": 35,
+      "variant": "a",
       "name": "Dead Milkmen",
+      "other_name": "Mutant Moo Murray",
+      "raw": "cards/gpk/35_dead_milkmen.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "music",
-      "raw": "cards/GPK-35_dead-milkmen.png",
-      "framed": "cards/framed/GPK-35_dead-milkmen_framed.webp",
-      "status": "framed"
+      "description": "A cartoon Dead Milkmen kid rides a giant mutant cow through a suburban wasteland. The cow has three heads and rocket exhaust. Cheap synthesizer keys grow from the fingers. Bituminous coal dust covers everything."
+    },
+    {
+      "number": 35,
+      "variant": "b",
+      "name": "Mutant Moo Murray",
+      "other_name": "Dead Milkmen",
+      "raw": "cards/gpk/35_mutant_moo_murray.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "music",
+      "description": "A cartoon Dead Milkmen kid rides a giant mutant cow through a suburban wasteland. The cow has three heads and rocket exhaust. Cheap synthesizer keys grow from the fingers. Bituminous coal dust covers everything."
     },
     {
       "number": 36,
+      "variant": "a",
       "name": "Devo Danny",
+      "other_name": "De-Evolved Dave",
+      "raw": "cards/gpk/36_devo_danny.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "music",
-      "raw": "cards/GPK-36_devo-danny.png",
-      "framed": "cards/framed/GPK-36_devo-danny_framed.webp",
-      "status": "framed"
+      "description": "A cartoon Devo kid in a red energy dome hat that is actually a working machine. Wires connect the hat to his jerking limbs. His movements are perfectly robotic and angular. Whip marks from de-evolution cover the walls."
+    },
+    {
+      "number": 36,
+      "variant": "b",
+      "name": "De-Evolved Dave",
+      "other_name": "Devo Danny",
+      "raw": "cards/gpk/36_de_evolved_dave.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "music",
+      "description": "A cartoon Devo kid in a red energy dome hat that is actually a working machine. Wires connect the hat to his jerking limbs. His movements are perfectly robotic and angular. Whip marks from de-evolution cover the walls."
     },
     {
       "number": 37,
+      "variant": "a",
       "name": "Wesley Willis",
+      "other_name": "Headbutt Henry",
+      "raw": "cards/gpk/37_wesley_willis.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "music",
-      "raw": "cards/GPK-37_wesley-willis.png",
-      "framed": "cards/framed/GPK-37_wesley-willis_framed.webp",
-      "status": "framed"
+      "description": "A cartoon Wesley Willis headbutts a brick wall with joy. His forehead has a permanent greeting bruise. A Casio keyboard is fused to his massive hands. Chicago city buses circle his head like a crown."
+    },
+    {
+      "number": 37,
+      "variant": "b",
+      "name": "Headbutt Henry",
+      "other_name": "Wesley Willis",
+      "raw": "cards/gpk/37_headbutt_henry.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "music",
+      "description": "A cartoon Wesley Willis headbutts a brick wall with joy. His forehead has a permanent greeting bruise. A Casio keyboard is fused to his massive hands. Chicago city buses circle his head like a crown."
     },
     {
       "number": 38,
+      "variant": "a",
       "name": "Ween Dean",
+      "other_name": "Boognish Bobby",
+      "raw": "cards/gpk/38_ween_dean.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "music",
-      "raw": "cards/GPK-38_ween-dean.png",
-      "framed": "cards/framed/GPK-38_ween-dean_framed.webp",
-      "status": "framed"
+      "description": "A cartoon Dean and Gene Ween merge into one two-headed brown creature. One head grins, the other grimaces. Their shared body wears a cape made of Boognish eyes. Scotchguard cans litter the floor."
+    },
+    {
+      "number": 38,
+      "variant": "b",
+      "name": "Boognish Bobby",
+      "other_name": "Ween Dean",
+      "raw": "cards/gpk/38_boognish_bobby.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "music",
+      "description": "A cartoon Dean and Gene Ween merge into one two-headed brown creature. One head grins, the other grimaces. Their shared body wears a cape made of Boognish eyes. Scotchguard cans litter the floor."
     },
     {
       "number": 39,
-      "name": "Mr Bungle",
+      "variant": "a",
+      "name": "Mr. Bungle",
+      "other_name": "Masked Maniac Marty",
+      "raw": "cards/gpk/39_mr_bungle.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "music",
-      "raw": "cards/GPK-39_mr-bungle.png",
-      "framed": "cards/framed/GPK-39_mr-bungle_framed.webp",
-      "status": "framed"
+      "description": "A cartoon Mr. Bungle kid in a ski mask juggles between genres. His body splits into jazz, metal, and carnival segments. Clown makeup bleeds through the mask. Saxophones and guitars orbit chaotically."
+    },
+    {
+      "number": 39,
+      "variant": "b",
+      "name": "Masked Maniac Marty",
+      "other_name": "Mr. Bungle",
+      "raw": "cards/gpk/39_masked_maniac_marty.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "music",
+      "description": "A cartoon Mr. Bungle kid in a ski mask juggles between genres. His body splits into jazz, metal, and carnival segments. Clown makeup bleeds through the mask. Saxophones and guitars orbit chaotically."
     },
     {
       "number": 40,
+      "variant": "a",
       "name": "Primus Pete",
+      "other_name": "Fishbass Freddy",
+      "raw": "cards/gpk/40_primus_pete.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "music",
-      "raw": "cards/GPK-40_primus-pete.png",
-      "framed": "cards/framed/GPK-40_primus-pete_framed.webp",
-      "status": "framed"
+      "description": "A cartoon Les Claypool slaps a bass guitar made of a giant fish. His eyes spin in different directions behind tiny glasses. A pig mask hangs from his belt. The bass strings are actually fishing lines."
+    },
+    {
+      "number": 40,
+      "variant": "b",
+      "name": "Fishbass Freddy",
+      "other_name": "Primus Pete",
+      "raw": "cards/gpk/40_fishbass_freddy.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "music",
+      "description": "A cartoon Les Claypool slaps a bass guitar made of a giant fish. His eyes spin in different directions behind tiny glasses. A pig mask hangs from his belt. The bass strings are actually fishing lines."
     },
     {
       "number": 41,
+      "variant": "a",
       "name": "Frank Zappa",
+      "other_name": "Zappa Zap Zack",
+      "raw": "cards/gpk/41_frank_zappa.webp",
+      "framed": null,
+      "status": "generated",
       "seriesId": "music",
-      "raw": "cards/GPK-41_frank-zappa.png",
-      "framed": "cards/framed/GPK-41_frank-zappa_framed.webp",
-      "status": "framed"
+      "description": "A cartoon Frank Zappa conducts an orchestra of mutant vegetables. His mustache extends into two conducting batons. Sheet music covered in impossible time signatures swirls around him. A toilet floats behind him playing a solo."
+    },
+    {
+      "number": 41,
+      "variant": "b",
+      "name": "Zappa Zap Zack",
+      "other_name": "Frank Zappa",
+      "raw": "cards/gpk/41_zappa_zap_zack.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "music",
+      "description": "A cartoon Frank Zappa conducts an orchestra of mutant vegetables. His mustache extends into two conducting batons. Sheet music covered in impossible time signatures swirls around him. A toilet floats behind him playing a solo."
+    },
+    {
+      "number": 42,
+      "variant": "a",
+      "name": "Curbside Clara",
+      "other_name": "Muck Mona",
+      "raw": "cards/gpk/42_curbside_clara.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "suburban-apocalypse",
+      "description": "A cartoon kid stands at the edge of a swimming pool that has become a swirling vortex. The water spirals downward into a dark pit where teeth line the drain like a lamprey mouth. Pool toys orbit the sinkhole in a death spiral. The kid grips a pool noodle like a life preserver while her feet slide toward the edge. Colors emphasize turquoise water, dark pit black, and panic-bright poolside pink."
+    },
+    {
+      "number": 42,
+      "variant": "b",
+      "name": "Muck Mona",
+      "other_name": "Curbside Clara",
+      "raw": "cards/gpk/42_muck_mona.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "suburban-apocalypse",
+      "description": "A cartoon kid stands at the edge of a swimming pool that has become a swirling vortex. The water spirals downward into a dark pit where teeth line the drain like a lamprey mouth. Pool toys orbit the sinkhole in a death spiral. The kid grips a pool noodle like a life preserver while her feet slide toward the edge. Colors emphasize turquoise water, dark pit black, and panic-bright poolside pink."
+    },
+    {
+      "number": 43,
+      "variant": "a",
+      "name": "Vinyl-Siding Virgil",
+      "other_name": "Pus Pierce",
+      "raw": "cards/gpk/43_vinyl_siding_virgil.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "suburban-apocalypse",
+      "description": "A cartoon kid is tangled in a web of Ring doorbell cameras that have grown tentacles. Each camera lens blinks like an eyeball while coaxial cables wrap around his arms and legs. The front porch is smothered in camera mounts growing like mushrooms. His face is lit by dozens of red recording LEDs. Colors emphasize surveillance red, cable black, and sterile porch white."
+    },
+    {
+      "number": 43,
+      "variant": "b",
+      "name": "Pus Pierce",
+      "other_name": "Vinyl-Siding Virgil",
+      "raw": "cards/gpk/43_pus_pierce.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "suburban-apocalypse",
+      "description": "A cartoon kid is tangled in a web of Ring doorbell cameras that have grown tentacles. Each camera lens blinks like an eyeball while coaxial cables wrap around his arms and legs. The front porch is smothered in camera mounts growing like mushrooms. His face is lit by dozens of red recording LEDs. Colors emphasize surveillance red, cable black, and sterile porch white."
+    },
+    {
+      "number": 44,
+      "variant": "a",
+      "name": "Sidewalk Shel",
+      "other_name": "Lawn-Melt Lee",
+      "raw": "cards/gpk/44_sidewalk_shel.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "suburban-apocalypse",
+      "description": "A cartoon kid stands on a suburban lawn that is literally on fire from chemical over-treatment. Bags of fertilizer have erupted into green flames around his feet. His flip-flops melt into the scorched turf while he holds a garden hose spraying gasoline. The lawn gnome next to him has caught fire and grins through the flames. Colors emphasize toxic green fire, suburban beige, and chemical yellow."
+    },
+    {
+      "number": 44,
+      "variant": "b",
+      "name": "Lawn-Melt Lee",
+      "other_name": "Sidewalk Shel",
+      "raw": "cards/gpk/44_lawn_melt_lee.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "suburban-apocalypse",
+      "description": "A cartoon kid stands on a suburban lawn that is literally on fire from chemical over-treatment. Bags of fertilizer have erupted into green flames around his feet. His flip-flops melt into the scorched turf while he holds a garden hose spraying gasoline. The lawn gnome next to him has caught fire and grins through the flames. Colors emphasize toxic green fire, suburban beige, and chemical yellow."
+    },
+    {
+      "number": 45,
+      "variant": "a",
+      "name": "Clout Carla",
+      "other_name": "Sponsored-Gut Sally",
+      "raw": "cards/gpk/45_clout_carla.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "influencer",
+      "description": "A cartoon kid peels back her skin to reveal brand logos wriggling underneath like parasites. Sponsored hashtags crawl across her arms as living tattoo worms. A ring light halo glows behind her head while she smiles for the camera. Her phone is grafted into her palm with roots growing into her wrist. Colors emphasize phone-screen blue, flesh pink, and brand neon."
+    },
+    {
+      "number": 45,
+      "variant": "b",
+      "name": "Sponsored-Gut Sally",
+      "other_name": "Clout Carla",
+      "raw": "cards/gpk/45_sponsored_gut_sally.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "influencer",
+      "description": "A cartoon kid peels back her skin to reveal brand logos wriggling underneath like parasites. Sponsored hashtags crawl across her arms as living tattoo worms. A ring light halo glows behind her head while she smiles for the camera. Her phone is grafted into her palm with roots growing into her wrist. Colors emphasize phone-screen blue, flesh pink, and brand neon."
+    },
+    {
+      "number": 46,
+      "variant": "a",
+      "name": "Glow-Brain Grant",
+      "other_name": "Cached Cora",
+      "raw": "cards/gpk/46_glow_brain_grant.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "influencer",
+      "description": "A cartoon kid's head has expanded into the shape of a massive YouTube thumbnail. His eyes are replaced by click-bait arrows pointing inward. A progress bar wraps around his skull like a headband and is halfway loaded. Graph lines sprout from his ears measuring engagement in real time. Colors emphasize algorithm red, notification blue, and metric green."
+    },
+    {
+      "number": 46,
+      "variant": "b",
+      "name": "Cached Cora",
+      "other_name": "Glow-Brain Grant",
+      "raw": "cards/gpk/46_cached_cora.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "influencer",
+      "description": "A cartoon kid's head has expanded into the shape of a massive YouTube thumbnail. His eyes are replaced by click-bait arrows pointing inward. A progress bar wraps around his skull like a headband and is halfway loaded. Graph lines sprout from his ears measuring engagement in real time. Colors emphasize algorithm red, notification blue, and metric green."
+    },
+    {
+      "number": 47,
+      "variant": "a",
+      "name": "Buffering Blake",
+      "other_name": "Content Carla",
+      "raw": "cards/gpk/47_buffering_blake.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "influencer",
+      "description": "A cartoon kid buffs her own face with a polishing cloth, revealing chrome underneath. Layers of filter and editing peel away like onion skin. One half of her face is flawless porcelain, the other is raw meat and wire. The ring light behind her casts two different shadows. Colors emphasize chrome silver, filter-perfect peach, and raw flesh red."
+    },
+    {
+      "number": 47,
+      "variant": "b",
+      "name": "Content Carla",
+      "other_name": "Buffering Blake",
+      "raw": "cards/gpk/47_content_carla.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "influencer",
+      "description": "A cartoon kid buffs her own face with a polishing cloth, revealing chrome underneath. Layers of filter and editing peel away like onion skin. One half of her face is flawless porcelain, the other is raw meat and wire. The ring light behind her casts two different shadows. Colors emphasize chrome silver, filter-perfect peach, and raw flesh red."
+    },
+    {
+      "number": 48,
+      "variant": "a",
+      "name": "Loop-Face Lou",
+      "other_name": "Filter-Mouth Fred",
+      "raw": "cards/gpk/48_loop_face_lou.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "tiktok",
+      "description": "A cartoon kid's face is stuck between three different beauty filters cycling rapidly. Dog ears, butterfly crown, and skull face all overlap into a glitching nightmare. His real face is visible in tiny cracks between the filters like skin showing through torn wallpaper. His phone is jammed against his face and will not come off. Colors emphasize glitch neon, filter pastel, and error-screen red."
+    },
+    {
+      "number": 48,
+      "variant": "b",
+      "name": "Filter-Mouth Fred",
+      "other_name": "Loop-Face Lou",
+      "raw": "cards/gpk/48_filter_mouth_fred.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "tiktok",
+      "description": "A cartoon kid's face is stuck between three different beauty filters cycling rapidly. Dog ears, butterfly crown, and skull face all overlap into a glitching nightmare. His real face is visible in tiny cracks between the filters like skin showing through torn wallpaper. His phone is jammed against his face and will not come off. Colors emphasize glitch neon, filter pastel, and error-screen red."
+    },
+    {
+      "number": 49,
+      "variant": "a",
+      "name": "Soundbite-Mouth Stella",
+      "other_name": "Organ Ora",
+      "raw": "cards/gpk/49_soundbite_mouth_stella.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "tiktok",
+      "description": "A cartoon kid's skeleton dances to a viral sound while her flesh hangs limp like a discarded costume. The sound waves are visible as barbed wire wrapping her ribcage in rhythmic pulses. Her jaw unhinges to let the trending audio blast outward. Small musical notes have teeth and bite chunks from her shoulders. Colors emphasize bass purple, bone white, and audio-wave neon."
+    },
+    {
+      "number": 49,
+      "variant": "b",
+      "name": "Organ Ora",
+      "other_name": "Soundbite-Mouth Stella",
+      "raw": "cards/gpk/49_organ_ora.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "tiktok",
+      "description": "A cartoon kid's skeleton dances to a viral sound while her flesh hangs limp like a discarded costume. The sound waves are visible as barbed wire wrapping her ribcage in rhythmic pulses. Her jaw unhinges to let the trending audio blast outward. Small musical notes have teeth and bite chunks from her shoulders. Colors emphasize bass purple, bone white, and audio-wave neon."
+    },
+    {
+      "number": 50,
+      "variant": "a",
+      "name": "Marrow Mae",
+      "other_name": "Sinew Stella",
+      "raw": "cards/gpk/50_marrow_mae.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "tiktok",
+      "description": "A cartoon kid is pulled through a phone screen by dozens of hands from a duet chain. Half his body is in the real world, half is pixelated inside the device. His screaming face is split down the middle \u2014 real tears on one side, crying filter on the other. Draft videos float around him like unfinished ghosts. Colors emphasize screen glow blue, pixel green, and draft-folder gray."
+    },
+    {
+      "number": 50,
+      "variant": "b",
+      "name": "Sinew Stella",
+      "other_name": "Marrow Mae",
+      "raw": "cards/gpk/50_sinew_stella.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "tiktok",
+      "description": "A cartoon kid is pulled through a phone screen by dozens of hands from a duet chain. Half his body is in the real world, half is pixelated inside the device. His screaming face is split down the middle \u2014 real tears on one side, crying filter on the other. Draft videos float around him like unfinished ghosts. Colors emphasize screen glow blue, pixel green, and draft-folder gray."
+    },
+    {
+      "number": 51,
+      "variant": "a",
+      "name": "Deleted-Scene Darla",
+      "other_name": "Confessional-Gut Cruz",
+      "raw": "cards/gpk/51_deleted_scene_darla.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "reality",
+      "description": "A cartoon kid sits in a confessional booth while an editing timeline slices through her body. Razor-sharp edit points cut her torso into rearranged segments. Her words float in subtitle text that rewrites itself mid-sentence. Camera tape wraps her arms like bandages. Colors emphasize confession-booth dark, edit-blade silver, and subtitle yellow."
+    },
+    {
+      "number": 51,
+      "variant": "b",
+      "name": "Confessional-Gut Cruz",
+      "other_name": "Deleted-Scene Darla",
+      "raw": "cards/gpk/51_confessional_gut_cruz.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "reality",
+      "description": "A cartoon kid sits in a confessional booth while an editing timeline slices through her body. Razor-sharp edit points cut her torso into rearranged segments. Her words float in subtitle text that rewrites itself mid-sentence. Camera tape wraps her arms like bandages. Colors emphasize confession-booth dark, edit-blade silver, and subtitle yellow."
+    },
+    {
+      "number": 52,
+      "variant": "a",
+      "name": "Syndicated Stella",
+      "other_name": "Buzzer Bruno",
+      "raw": "cards/gpk/52_syndicated_stella.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "reality",
+      "description": "A cartoon kid contestant has a buzzer branded into his forehead showing his ranking number. His entire skin is covered in scoreboard digits that change with each audience reaction. A challenge timer wraps around his neck like a collar counting down. His team sash strangles him tighter with each elimination. Colors emphasize buzzer neon red, timer digital green, and bruise purple."
+    },
+    {
+      "number": 52,
+      "variant": "b",
+      "name": "Buzzer Bruno",
+      "other_name": "Syndicated Stella",
+      "raw": "cards/gpk/52_buzzer_bruno.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "reality",
+      "description": "A cartoon kid contestant has a buzzer branded into his forehead showing his ranking number. His entire skin is covered in scoreboard digits that change with each audience reaction. A challenge timer wraps around his neck like a collar counting down. His team sash strangles him tighter with each elimination. Colors emphasize buzzer neon red, timer digital green, and bruise purple."
+    },
+    {
+      "number": 53,
+      "variant": "a",
+      "name": "Method Mae",
+      "other_name": "Dust-Melt Dirk",
+      "raw": "cards/gpk/53_method_mae.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "hollywood",
+      "description": "A cartoon kid actor crumbles into dust while still delivering his lines. Script pages staple themselves to his disintegrating body trying to hold him together. An Oscar statue on the shelf drinks his dust through a straw. His director's chair has already grown cobwebs. Colors emphasize Hollywood gold, dust brown, and fading-star silver."
+    },
+    {
+      "number": 53,
+      "variant": "b",
+      "name": "Dust-Melt Dirk",
+      "other_name": "Method Mae",
+      "raw": "cards/gpk/53_dust_melt_dirk.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "hollywood",
+      "description": "A cartoon kid actor crumbles into dust while still delivering his lines. Script pages staple themselves to his disintegrating body trying to hold him together. An Oscar statue on the shelf drinks his dust through a straw. His director's chair has already grown cobwebs. Colors emphasize Hollywood gold, dust brown, and fading-star silver."
+    },
+    {
+      "number": 54,
+      "variant": "a",
+      "name": "Red-carpet-Melt Rob",
+      "other_name": "Take-Rot Tom",
+      "raw": "cards/gpk/54_red_carpet_melt_rob.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "hollywood",
+      "description": "A cartoon kid melts on the red carpet under the heat of a thousand camera flashes. His tuxedo dissolves into a puddle of black fabric. Paparazzi flashbulbs pop out of his eye sockets. His agent tries to mop him up with a headshot photo. Colors emphasize carpet red, flash white, and melting-wax peach."
+    },
+    {
+      "number": 54,
+      "variant": "b",
+      "name": "Take-Rot Tom",
+      "other_name": "Red-carpet-Melt Rob",
+      "raw": "cards/gpk/54_take_rot_tom.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "hollywood",
+      "description": "A cartoon kid melts on the red carpet under the heat of a thousand camera flashes. His tuxedo dissolves into a puddle of black fabric. Paparazzi flashbulbs pop out of his eye sockets. His agent tries to mop him up with a headshot photo. Colors emphasize carpet red, flash white, and melting-wax peach."
+    },
+    {
+      "number": 55,
+      "variant": "a",
+      "name": "Slasher-Mouth Stan",
+      "other_name": "Receipt-Rot Rob",
+      "raw": "cards/gpk/55_slasher_mouth_stan.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "horror-parodies",
+      "description": "A cartoon slasher kid chases a victim while fumbling with a receipt for his machete. The blade has a warranty sticker and a barcode on the handle. His hockey mask has a customer service headset built in. The victim fills out a complaint form while running. Colors emphasize blood red, receipt white, and retail fluorescent."
+    },
+    {
+      "number": 55,
+      "variant": "b",
+      "name": "Receipt-Rot Rob",
+      "other_name": "Slasher-Mouth Stan",
+      "raw": "cards/gpk/55_receipt_rot_rob.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "horror-parodies",
+      "description": "A cartoon slasher kid chases a victim while fumbling with a receipt for his machete. The blade has a warranty sticker and a barcode on the handle. His hockey mask has a customer service headset built in. The victim fills out a complaint form while running. Colors emphasize blood red, receipt white, and retail fluorescent."
+    },
+    {
+      "number": 56,
+      "variant": "a",
+      "name": "Possessed-Mouth Pierce",
+      "other_name": "Curtain-Mouth Carla",
+      "raw": "cards/gpk/56_possessed_mouth_pierce.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "horror-parodies",
+      "description": "A cartoon kid floats above her bed while the demon possessing her argues with the landlord about the security deposit. Pea soup vomit has stained the carpet and a damage invoice levitates beside it. The priest holds an exorcism manual and a cleaning bill. Her head spins while a property inspector takes notes. Colors emphasize possession green, landlord khaki, and hellfire red."
+    },
+    {
+      "number": 56,
+      "variant": "b",
+      "name": "Curtain-Mouth Carla",
+      "other_name": "Possessed-Mouth Pierce",
+      "raw": "cards/gpk/56_curtain_mouth_carla.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "horror-parodies",
+      "description": "A cartoon kid floats above her bed while the demon possessing her argues with the landlord about the security deposit. Pea soup vomit has stained the carpet and a damage invoice levitates beside it. The priest holds an exorcism manual and a cleaning bill. Her head spins while a property inspector takes notes. Colors emphasize possession green, landlord khaki, and hellfire red."
+    },
+    {
+      "number": 57,
+      "variant": "a",
+      "name": "Jump-scare Joel",
+      "other_name": "Jump-scare-Face Jim",
+      "raw": "cards/gpk/57_jump_scare_joel.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "horror-parodies",
+      "description": "A cartoon monster pops out of a closet but pauses for the victim to sign a jump-scare consent form. The clipboard has legal disclaimers in tiny font. The kid's terrified face freezes mid-scream while reading the fine print. A notary zombie stands behind them with a stamp. Colors emphasize closet dark, form white, and legal-stamp red."
+    },
+    {
+      "number": 57,
+      "variant": "b",
+      "name": "Jump-scare-Face Jim",
+      "other_name": "Jump-scare Joel",
+      "raw": "cards/gpk/57_jump_scare_face_jim.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "horror-parodies",
+      "description": "A cartoon monster pops out of a closet but pauses for the victim to sign a jump-scare consent form. The clipboard has legal disclaimers in tiny font. The kid's terrified face freezes mid-scream while reading the fine print. A notary zombie stands behind them with a stamp. Colors emphasize closet dark, form white, and legal-stamp red."
+    },
+    {
+      "number": 58,
+      "variant": "a",
+      "name": "Blue-Screen Blake",
+      "other_name": "Firmware Faith",
+      "raw": "cards/gpk/58_blue_screen_blake.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "scifi",
+      "description": "A cartoon cyborg kid blue-screens in the middle of a grocery store. Error codes scroll across his face like a crashing computer. One arm is stuck mid-reach for cereal while the other reboots with spinning gears. Shoppers step around him like he is a broken display. Colors emphasize blue-screen blue, error text white, and grocery-store fluorescent."
+    },
+    {
+      "number": 58,
+      "variant": "b",
+      "name": "Firmware Faith",
+      "other_name": "Blue-Screen Blake",
+      "raw": "cards/gpk/58_firmware_faith.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "scifi",
+      "description": "A cartoon cyborg kid blue-screens in the middle of a grocery store. Error codes scroll across his face like a crashing computer. One arm is stuck mid-reach for cereal while the other reboots with spinning gears. Shoppers step around him like he is a broken display. Colors emphasize blue-screen blue, error text white, and grocery-store fluorescent."
+    },
+    {
+      "number": 59,
+      "variant": "a",
+      "name": "Warp-Brain Wally",
+      "other_name": "Patched Pete",
+      "raw": "cards/gpk/59_warp_brain_wally.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "scifi",
+      "description": "A cartoon kid runs into an invisible firewall in deep space that flattens him like a bug on a windshield. His smeared body spreads across the barrier showing his insides like a scan. Error popups bounce off the firewall listing access denied. His spaceship crumples behind him against the invisible wall. Colors emphasize firewall neon grid, space void black, and smear red-orange."
+    },
+    {
+      "number": 59,
+      "variant": "b",
+      "name": "Patched Pete",
+      "other_name": "Warp-Brain Wally",
+      "raw": "cards/gpk/59_patched_pete.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "scifi",
+      "description": "A cartoon kid runs into an invisible firewall in deep space that flattens him like a bug on a windshield. His smeared body spreads across the barrier showing his insides like a scan. Error popups bounce off the firewall listing access denied. His spaceship crumples behind him against the invisible wall. Colors emphasize firewall neon grid, space void black, and smear red-orange."
+    },
+    {
+      "number": 60,
+      "variant": "a",
+      "name": "Term-Limit Tammy",
+      "other_name": "Campaign Chad",
+      "raw": "cards/gpk/60_term_limit_tammy.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "election",
+      "description": "A cartoon kid politician grips a podium that has grown teeth and is chewing on his tie. Poll numbers float around his head like a halo of stats. His campaign buttons are actually leeches stuck to his lapel. The podium microphone has grown into his chin like a tumor. Colors emphasize podium wood brown, poll number red-blue, and leech-button gloss."
+    },
+    {
+      "number": 60,
+      "variant": "b",
+      "name": "Campaign Chad",
+      "other_name": "Term-Limit Tammy",
+      "raw": "cards/gpk/60_campaign_chad.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "election",
+      "description": "A cartoon kid politician grips a podium that has grown teeth and is chewing on his tie. Poll numbers float around his head like a halo of stats. His campaign buttons are actually leeches stuck to his lapel. The podium microphone has grown into his chin like a tumor. Colors emphasize podium wood brown, poll number red-blue, and leech-button gloss."
+    },
+    {
+      "number": 61,
+      "variant": "a",
+      "name": "Donation Donnie",
+      "other_name": "Gerrymander Greta",
+      "raw": "cards/gpk/61_donation_donnie.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "election",
+      "description": "A cartoon kid reaches into a ballot box that chomps down on his arm like a hungry mouth. His other hand feeds dollar bills into a slot in his own chest. Campaign yard signs grow from his back like wings. Confetti made of shredded ballots rains from above. Colors emphasize ballot-box blue, donation gold, and yard-sign red-white."
+    },
+    {
+      "number": 61,
+      "variant": "b",
+      "name": "Gerrymander Greta",
+      "other_name": "Donation Donnie",
+      "raw": "cards/gpk/61_gerrymander_greta.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "election",
+      "description": "A cartoon kid reaches into a ballot box that chomps down on his arm like a hungry mouth. His other hand feeds dollar bills into a slot in his own chest. Campaign yard signs grow from his back like wings. Confetti made of shredded ballots rains from above. Colors emphasize ballot-box blue, donation gold, and yard-sign red-white."
+    },
+    {
+      "number": 62,
+      "variant": "a",
+      "name": "Stitched-Gut Sid",
+      "other_name": "Hybrid-Brain Holly",
+      "raw": "cards/gpk/62_stitched_gut_sid.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "monster-mashup",
+      "description": "A cartoon kid is stitched together from four different monsters \u2014 vampire fangs on one quarter, werewolf fur on another, mummy wraps on the third, and zombie rot on the last. The stitching between sections is crude and leaking different colored oozes. Each body quarter tries to transform in a different direction. His expression is four conflicting emotions at once. Colors emphasize stitch-thread black, vampire red, werewolf brown, and zombie green."
+    },
+    {
+      "number": 62,
+      "variant": "b",
+      "name": "Hybrid-Brain Holly",
+      "other_name": "Stitched-Gut Sid",
+      "raw": "cards/gpk/62_hybrid_brain_holly.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "monster-mashup",
+      "description": "A cartoon kid is stitched together from four different monsters \u2014 vampire fangs on one quarter, werewolf fur on another, mummy wraps on the third, and zombie rot on the last. The stitching between sections is crude and leaking different colored oozes. Each body quarter tries to transform in a different direction. His expression is four conflicting emotions at once. Colors emphasize stitch-thread black, vampire red, werewolf brown, and zombie green."
+    },
+    {
+      "number": 63,
+      "variant": "a",
+      "name": "Fusion-Melt Fern",
+      "other_name": "Splice-Melt Shane",
+      "raw": "cards/gpk/63_fusion_melt_fern.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "monster-mashup",
+      "description": "A cartoon kid is stuck mid-transformation between human and sea creature. Scales grow in patches across his face while gills open and close on his neck. His legs have fused into a partial tail that still has sneakers at the end. Tentacle fingers grip a geometry textbook. Colors emphasize scale iridescent, human pink, and deep-sea dark blue."
+    },
+    {
+      "number": 63,
+      "variant": "b",
+      "name": "Splice-Melt Shane",
+      "other_name": "Fusion-Melt Fern",
+      "raw": "cards/gpk/63_splice_melt_shane.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "monster-mashup",
+      "description": "A cartoon kid is stuck mid-transformation between human and sea creature. Scales grow in patches across his face while gills open and close on his neck. His legs have fused into a partial tail that still has sneakers at the end. Tentacle fingers grip a geometry textbook. Colors emphasize scale iridescent, human pink, and deep-sea dark blue."
+    },
+    {
+      "number": 64,
+      "variant": "a",
+      "name": "Siren-Melt Sam",
+      "other_name": "Cookies Cora",
+      "raw": "cards/gpk/64_siren_melt_sam.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "mythical",
+      "description": "A cartoon siren kid sits on a rock in a digital ocean singing through a Bluetooth speaker. Instead of luring sailors, she lures people into accepting cookies pop-ups. Ships crash into rocks made of stacked Terms of Service documents. Her tail is covered in subscribe buttons. Colors emphasize ocean teal, cookie-popup gold, and siren violet."
+    },
+    {
+      "number": 64,
+      "variant": "b",
+      "name": "Cookies Cora",
+      "other_name": "Siren-Melt Sam",
+      "raw": "cards/gpk/64_cookies_cora.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "mythical",
+      "description": "A cartoon siren kid sits on a rock in a digital ocean singing through a Bluetooth speaker. Instead of luring sailors, she lures people into accepting cookies pop-ups. Ships crash into rocks made of stacked Terms of Service documents. Her tail is covered in subscribe buttons. Colors emphasize ocean teal, cookie-popup gold, and siren violet."
+    },
+    {
+      "number": 65,
+      "variant": "a",
+      "name": "Warranty-Gut Winnie",
+      "other_name": "Zeus-Rot Zola",
+      "raw": "cards/gpk/65_warranty_gut_winnie.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "mythical",
+      "description": "A cartoon Zeus kid hurls a lightning bolt that gets stuck in a returns counter. A retail employee hands him a warranty void notice. His toga is covered in policy violation citations. His thundercloud follows him around with a low-battery icon. Colors emphasize lightning gold, retail fluorescent, and Zeus-robe white."
+    },
+    {
+      "number": 65,
+      "variant": "b",
+      "name": "Zeus-Rot Zola",
+      "other_name": "Warranty-Gut Winnie",
+      "raw": "cards/gpk/65_zeus_rot_zola.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "mythical",
+      "description": "A cartoon Zeus kid hurls a lightning bolt that gets stuck in a returns counter. A retail employee hands him a warranty void notice. His toga is covered in policy violation citations. His thundercloud follows him around with a low-battery icon. Colors emphasize lightning gold, retail fluorescent, and Zeus-robe white."
+    },
+    {
+      "number": 66,
+      "variant": "a",
+      "name": "Stuffing-Face Sue",
+      "other_name": "Rot-Rot Ruby",
+      "raw": "cards/gpk/66_stuffing_face_sue.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "cabbage-rejects",
+      "description": "A cartoon Cabbage Patch kid splits open at the seams with rotting stuffing pouring out. The cotton filling has turned green and sprouts tiny mushrooms. Her button eyes pop off as the pressure builds from inside. A tag on her foot reads DO NOT OPEN in faded text. Colors emphasize split-seam pink, rot green, and button-eye black."
+    },
+    {
+      "number": 66,
+      "variant": "b",
+      "name": "Rot-Rot Ruby",
+      "other_name": "Stuffing-Face Sue",
+      "raw": "cards/gpk/66_rot_rot_ruby.webp",
+      "framed": null,
+      "status": "generated",
+      "seriesId": "cabbage-rejects",
+      "description": "A cartoon Cabbage Patch kid splits open at the seams with rotting stuffing pouring out. The cotton filling has turned green and sprouts tiny mushrooms. Her button eyes pop off as the pressure builds from inside. A tag on her foot reads DO NOT OPEN in faded text. Colors emphasize split-seam pink, rot green, and button-eye black."
     }
   ]
 }
